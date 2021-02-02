@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealAI",
+			"Path": "C:\\Users\\Morgan\\Desktop\\UnrealAI\\UnrealAI\\Source\\UnrealAI.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealAIEditor",
+			"Path": "C:\\Users\\Morgan\\Desktop\\UnrealAI\\UnrealAI\\Source\\UnrealAIEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
