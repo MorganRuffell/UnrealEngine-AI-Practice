@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Components/SphereComponent.h"
 #include "GameFramework/Character.h"
 #include "UnrealAICharacter.generated.h"
 
@@ -18,6 +19,11 @@ class AUnrealAICharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
+	/** Sphere Collision Component */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = QueryCollison, meta = (AllowPrivateAccess = "true"))
+	class USphereComponent* SphereCollider;
+
 public:
 	AUnrealAICharacter();
 
@@ -28,7 +34,24 @@ public:
 	/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category= QueryCollision)
+	float SphereRadius;
+	
 
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void Walk();
+	
+	UFUNCTION(BlueprintImplementableEvent)
+	void StopWalking();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void Sprint();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void StopSprinting();
+	
 protected:
 
 	/** Resets HMD orientation in VR. */

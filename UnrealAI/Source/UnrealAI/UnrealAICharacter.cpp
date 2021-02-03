@@ -17,6 +17,9 @@ AUnrealAICharacter::AUnrealAICharacter()
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
+	// Set size for our collection Sphere Collider
+	SphereRadius = 10.0f;
+
 	// set our turn rates for input
 	BaseTurnRate = 45.f;
 	BaseLookUpRate = 45.f;
@@ -42,10 +45,17 @@ AUnrealAICharacter::AUnrealAICharacter()
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
+	
+	//Instantiate a collection sphere collider. Query only.
+	SphereCollider = CreateDefaultSubobject<USphereComponent>(TEXT("Collection Sphere"));
+	SphereCollider->SetupAttachment(RootComponent);
+	SphereCollider->SetSphereRadius(SphereRadius);
+
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
+
 
 //////////////////////////////////////////////////////////////////////////
 // Input
@@ -56,6 +66,11 @@ void AUnrealAICharacter::SetupPlayerInputComponent(class UInputComponent* Player
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+	PlayerInputComponent->BindAction("Walk", IE_Pressed, this, &AUnrealAICharacter::Walk);
+	PlayerInputComponent->BindAction("Walk", IE_Released, this, &AUnrealAICharacter::StopWalking);
+	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AUnrealAICharacter::Sprint);
+	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AUnrealAICharacter::StopSprinting);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AUnrealAICharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AUnrealAICharacter::MoveRight);
@@ -132,3 +147,23 @@ void AUnrealAICharacter::MoveRight(float Value)
 		AddMovementInput(Direction, Value);
 	}
 }
+
+//void AUnrealAICharacter::Walk()
+//{
+//	
+//}
+//
+//void AUnrealAICharacter::StopWalking()
+//{
+//
+//}
+//
+//void AUnrealAICharacter::Sprint()
+//{
+//
+//}
+//
+//void AUnrealAICharacter::StopSprinting()
+//{
+//
+//}

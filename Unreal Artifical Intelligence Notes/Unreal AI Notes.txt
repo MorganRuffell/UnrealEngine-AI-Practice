@@ -1,0 +1,135 @@
+Unreal AI Notes
+
+Artificial Intelligence is a key component of working with any game, all games have AI of some kind. And how this AI is applied to games
+is fundamental in the execution. 
+
+
+## Keywords ##
+
+NavMesh			Like the Unity Counterpart, unreal engine allows you to place navigation volumes. These navigation volumes allow
+			you to dictate what areas AI can move around in.
+			It's extremely useful. Please refer to your Unreal Animation projects for an implementation of this!
+
+
+## Unreal - Creating AI with behaviour states in UE4 ##
+
+Throughout this course we will cover four key areas:
+
+- Behaviour states
+- AI sensory perception
+- AI awareness
+- Searching & Patrolling
+
+
+These are simple AI branches that are important in the development of your own games, as a lot of modern AAA titles and engines will use systems like
+to create and integrate their own AI into their games. 
+
+As a developer I know you really want to create these amazing AAA style experiences. So therefore I think it is imperative that you create solutions 
+like this.
+
+## Designing the AI ##
+
+Do not get confused by all of these high level words. 
+Artifical Intelligence is simple, it is a trick into thinking that the world is full of real things, when actually they are not. There is thousands 
+upon thousands of types of AI. 
+You've got friendly AI that come with the player, you've got guard AI that is hostile to the player. You've got advanced AI present in motor racing games.
+
+So let's discuss the first type. From a High level:
+
+Guard AI:
+
+	What is the purpose of this AI?
+	What does it add to the game experience?
+	Why does it need to be in the game?
+
+Once, obviously these questions are not context exclusive, the answers to this underpin what the AI is going to do and what it's purpose is.
+
+Enemy / Guard AI reacts to stimulous from the player. 
+	- Sight, Seeing the player.
+	- Hear, Hearing the player.
+	- Touch, touching the player.
+
+The amount of Simuli that it gets the more aware it is of the player, and the reactions that comes from the AI determine that level of awarness.
+And the following awareness drives it's resulting behaviour, this should be balanced so that it creates a challenge for the player.
+
+
+## Considering the job of an AI ##
+
+What is the guard AI's job?
+
+If does become suspicious then it should react accordingly. Could provide audio queues? 
+If it gathers enough stimulous, then it should react accordingly, move off of it's patrol path and look for the player. 
+
+Finally if it sees the player, and enough sound? (Depending on the needs) then it should become hostile.
+
+
+## State Machine ##
+
+This sort of stuff is created normally using a finite state machine. You've seen these before when we created a version for Games Programming,
+but that was very slapdash, unrefined, callous and badly designed. 
+You also had no idea of the underpinning concepts behind making a state machine. 
+
+You've also seen state machines in mathematics, setting up the animator in unity and working with the animation Blueprints inside UE4.
+
+
+# Awareness System #
+
+The events in a state machine, like in the animator would be driven by an int/float value.
+In this case for an awareness system we would use a float or int to drive change in the state machine.
+
+Let's think about this like a number line. It is imperative that you think about things in the most fundamental constructs possible. 
+These are complicated systems that if you can learn to think about primatively, will break it down.
+
+
+- Number line (Scale of stim)
+
+At Level 0 -> There is no awareness, the patrolling AI does not see the player or even consider their presence.
+
+
+
+At Level 2 -> Suspicious mode. 
+
+
+
+At Level 3 -> Searching mode.
+
+
+
+At level 4 -> Hostile, chasing player and Shooting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
