@@ -1,3 +1,4 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Morgan\Desktop\UnrealAI).
+  Creating makefile for UnrealAIEditor (no existing makefile)
   Target is up to date
-  Total execution time: 0.44 seconds
+  Total execution time: 1.90 seconds

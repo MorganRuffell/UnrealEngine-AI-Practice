@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealAI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F677B55E-D1F5-4472-95A7-800E66A67D9A}</UniqueIdentifier>
+      <UniqueIdentifier>{CD2E6B1D-BDFF-47B0-A79A-EE928CB29F06}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealAI.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1BD187D4-363A-4022-9EBE-88CE54C57ED6}</UniqueIdentifier>
+      <UniqueIdentifier>{9AEB4196-B3C5-41C7-8BAC-0EF25650BD84}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealAI">
-      <UniqueIdentifier>{F3CADC89-0534-45CF-B0B4-B578691C4FF1}</UniqueIdentifier>
+      <UniqueIdentifier>{49A1F409-07E2-4744-8415-9846A91BD008}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealAI\UnrealAI.Build.cs">
       <Filter>Source\UnrealAI</Filter>
