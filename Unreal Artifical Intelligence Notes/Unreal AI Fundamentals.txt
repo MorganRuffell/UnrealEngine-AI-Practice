@@ -1,0 +1,23 @@
+AI & Navigation Systems: Basic Assets
+
+
+Required Assets
+
+Please remember that all base classes have C++ varients that you can extend the behaviour of through components, and other additional class header files.
+
+-	Character Blueprint (Or ACharacter object) As you remember that ACharacter derieves from APawn. So therefore 
+	your AI will need to be able to possess something. Similar to how you possess things.
+
+-	Blackboard -> A blackboard asset is found under the miscallenous tab. This allows you to set blackboard keys of different data types.
+	This also comes with a behaviour tree.
+
+	-	You can also base this off of another blackboard through the parent tab.
+
+-	AI Controller. This is what we are using in place of the player controller which posesses a pawn. This one is a computer version of something that posesses a pawn.
+
+	- 	This does come with a blueprint event graph. 
+	-	But do not use this event graph. The most efficent way to control your AI is through the balckboard behaviour tree.
+
+-	Behaviour Tree, the paired component of a blackboard.
+
+-	

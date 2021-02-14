@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealAI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CD2E6B1D-BDFF-47B0-A79A-EE928CB29F06}</UniqueIdentifier>
+      <UniqueIdentifier>{DEEF7011-FD19-4609-9E13-E757AB802289}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealAI.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{9AEB4196-B3C5-41C7-8BAC-0EF25650BD84}</UniqueIdentifier>
+      <UniqueIdentifier>{5B12AACB-2DE2-4F68-9D33-2AEB568308A6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealAI">
-      <UniqueIdentifier>{49A1F409-07E2-4744-8415-9846A91BD008}</UniqueIdentifier>
+      <UniqueIdentifier>{A36B14BE-B8FB-4CE6-BA50-E61DF4409617}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UnrealAI\CharacterMovementModes.cpp">
+      <Filter>Source\UnrealAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealAI\CharacterMovementModes.h">
+      <Filter>Source\UnrealAI</Filter>
+    </ClInclude>
     <None Include="..\..\Source\UnrealAI\UnrealAI.Build.cs">
       <Filter>Source\UnrealAI</Filter>
     </None>
@@ -52,6 +58,27 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\UnrealAI\UnrealAIGameMode.h">
       <Filter>Source\UnrealAI</Filter>
+    </ClInclude>
+    <Filter Include="Source\UnrealAI\UnrealAI Fundamentals">
+      <UniqueIdentifier>{BC2C1CDB-69AB-483C-9C4F-FEB55DBB10B8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalBlackboard.cpp">
+      <Filter>Source\UnrealAI\UnrealAI Fundamentals</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalBlackboard.h">
+      <Filter>Source\UnrealAI\UnrealAI Fundamentals</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalCharacter.cpp">
+      <Filter>Source\UnrealAI\UnrealAI Fundamentals</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalCharacter.h">
+      <Filter>Source\UnrealAI\UnrealAI Fundamentals</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalController.cpp">
+      <Filter>Source\UnrealAI\UnrealAI Fundamentals</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalController.h">
+      <Filter>Source\UnrealAI\UnrealAI Fundamentals</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
