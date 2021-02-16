@@ -1,6 +1,22 @@
 AI & Navigation Systems: Basic Assets
 
 
+## Keywords ##
+
+Services		These are BP graphs themselves, but you can also create C++ versions they control how behaviour works inside of Unreal Engine. It is always
+			best to create a base implementation of this inside C++.
+
+Decorators		Decorators function like conditionals or if statements, they decide whether something can be executed.	
+
+Composite		Composite nodes include things like selectors, sequences and Simple Parallels. They are the fundamental building block behind a service
+
+Task			A task node allows you to 'do' things, they can have decorators or services attached to them.
+
+
+
+
+
+
 Required Assets
 
 Please remember that all base classes have C++ varients that you can extend the behaviour of through components, and other additional class header files.
@@ -20,4 +36,16 @@ Please remember that all base classes have C++ varients that you can extend the 
 
 -	Behaviour Tree, the paired component of a blackboard.
 
--	
+
+Behaviour tree:
+
+-	This is a flowchart of the logic, it works from the top down. A bit like an inverted tree.
+
+-	In the attached project you can see a blueprint implementation for working with this specific AI system. It is highly reccomended that you follow this
+	there is a reason that we do not do this in C++. Blackboards and behaviour trees are unreal objects, they are not a class that we can create stuff from before it is instantiated
+	
+-	There are two kinds of things you can create:
+
+	-	Selectors	These allow you to select decorators and services.	
+	
+	-	Sequences	Sequences allow you to set up a sequence of selectors.

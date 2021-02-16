@@ -2,13 +2,18 @@
 
 
 #include "AI_FundamentalCharacter.h"
+#include "AI_FundamentalController.h"
 
 // Sets default values
 AAI_FundamentalCharacter::AAI_FundamentalCharacter()
 {
+	CollisionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("Sphere Collider"));
+	CollisionSphere->SetupAttachment(RootComponent);
+
+
+
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 }
 
 // Called when the game starts or when spawned

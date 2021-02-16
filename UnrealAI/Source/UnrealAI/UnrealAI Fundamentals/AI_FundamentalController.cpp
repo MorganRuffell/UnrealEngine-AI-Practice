@@ -5,6 +5,7 @@
 
 AAI_FundamentalController::AAI_FundamentalController()
 {
+
 }
 
 AAI_FundamentalController::~AAI_FundamentalController()

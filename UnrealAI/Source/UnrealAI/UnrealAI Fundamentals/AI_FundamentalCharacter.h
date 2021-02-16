@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Components/SphereComponent.h"
 #include "AI_FundamentalCharacter.generated.h"
 
 UCLASS()
@@ -11,9 +12,15 @@ class UNREALAI_API AAI_FundamentalCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "", meta = (AllowPrivateAccess))
+	class USphereComponent* CollisionSphere;
+
 public:
 	// Sets default values for this character's properties
 	AAI_FundamentalCharacter();
+
+
+
 
 protected:
 	// Called when the game starts or when spawned
