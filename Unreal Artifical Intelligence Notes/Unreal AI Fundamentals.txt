@@ -13,7 +13,12 @@ Composite		Composite nodes include things like selectors, sequences and Simple P
 Task			A task node allows you to 'do' things, they can have decorators or services attached to them.
 
 
+## WARNING ##
 
+When deriving your own .cpp services for behaviour trees make sure that you, include inside of the ProjectName.Build.cs file contains
+the required public depnednecies module. "GameplayTasks".
+
+It requires it as a literal string, as it joins a range of public dependency modules instantiated at runtime.
 
 
 

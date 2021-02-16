@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealAI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DEEF7011-FD19-4609-9E13-E757AB802289}</UniqueIdentifier>
+      <UniqueIdentifier>{E80B385B-52F1-40A8-9A32-0087E6F0E398}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealAI.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5B12AACB-2DE2-4F68-9D33-2AEB568308A6}</UniqueIdentifier>
+      <UniqueIdentifier>{42B07289-D593-49A3-8894-4CFAA23635ED}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealAI">
-      <UniqueIdentifier>{A36B14BE-B8FB-4CE6-BA50-E61DF4409617}</UniqueIdentifier>
+      <UniqueIdentifier>{B7F322FE-A767-4DBD-BE8F-6D9D183A79E0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealAI\CharacterMovementModes.cpp">
       <Filter>Source\UnrealAI</Filter>
@@ -60,12 +60,12 @@
       <Filter>Source\UnrealAI</Filter>
     </ClInclude>
     <Filter Include="Source\UnrealAI\UnrealAI Fundamentals">
-      <UniqueIdentifier>{BC2C1CDB-69AB-483C-9C4F-FEB55DBB10B8}</UniqueIdentifier>
+      <UniqueIdentifier>{3DBAF6F4-D16B-419C-AA57-7C83E255501C}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalBlackboard.cpp">
+    <ClCompile Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.cpp">
       <Filter>Source\UnrealAI\UnrealAI Fundamentals</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalBlackboard.h">
+    <ClInclude Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.h">
       <Filter>Source\UnrealAI\UnrealAI Fundamentals</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalCharacter.cpp">
