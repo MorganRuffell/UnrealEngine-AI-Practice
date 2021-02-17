@@ -1,23 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Morgan\Desktop\UnrealAI).
   Parsing headers for UnrealAIEditor
     Running UnrealHeaderTool "C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\UnrealAI.uproject" "C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Intermediate\Build\Win64\UnrealAIEditor\Development\UnrealAIEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Morgan\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for UnrealAIEditor in 4.8707039 seconds
+  Reflection code generated for UnrealAIEditor in 4.956566 seconds
   Building UnrealAIEditor...
   Using Visual Studio 2019 14.28.29336 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 20 processes...
-    [1/6] AIFundamentals_BTService.cpp
-C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.cpp(7): error C2653: 'FBTNodeBPImplementationHelper': is not a class or namespace name
-C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.cpp(7): error C2871: 'AISpecific': a namespace with this name does not exist
-C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.cpp(32): error C2065: 'ReceiveTickImplementations': undeclared identifier
-C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.cpp(32): error C2653: 'FBTNodeBPImplementationHelper': is not a class or namespace name
-C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.cpp(32): error C2065: 'AISpecific': undeclared identifier
-C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.cpp(34): error C2027: use of undefined type 'AAIController'
-    C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAI\AIFundamentals_BTService.generated.h(12): note: see declaration of 'AAIController'
-C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.cpp(34): error C2660: 'UAIFundamentals_BTService::ReceiveTickAI': function does not take 2 arguments
-    C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.h(62): note: see declaration of 'UAIFundamentals_BTService::ReceiveTickAI'
-C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.cpp(36): error C2065: 'ReceiveTickImplementations': undeclared identifier
-C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.cpp(36): error C2653: 'FBTNodeBPImplementationHelper': is not a class or namespace name
-C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.cpp(36): error C2065: 'Generic': undeclared identifier
-    [2/6] AI_FundamentalCharacter.gen.cpp
-    [3/6] AI_FundamentalCharacter.cpp
+  Building 7 actions with 20 processes...
+    [1/7] AI_FundamentalCharacter.cpp
+C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalCharacter.cpp : fatal error C1853: 'C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Intermediate\Build\Win64\UnrealAIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch' precompiled header file is from a different version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+    [2/7] AI_FundamentalController.gen.cpp
+C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAI\AI_FundamentalController.gen.cpp : fatal error C1853: 'C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Intermediate\Build\Win64\UnrealAIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch' precompiled header file is from a different version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+    [3/7] AI_FundamentalController.cpp
+C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalController.cpp : fatal error C1853: 'C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Intermediate\Build\Win64\UnrealAIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch' precompiled header file is from a different version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+    [4/7] UnrealAI.init.gen.cpp
+C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAI\UnrealAI.init.gen.cpp : fatal error C1853: 'C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Intermediate\Build\Win64\UnrealAIEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch' precompiled header file is from a different version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.25\Engine\Build\BatchFiles\Build.bat" UnrealAIEditor Win64 Development -Project="C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\UnrealAI.uproject" -WaitMutex -FromMsBuild" exited with code 6.

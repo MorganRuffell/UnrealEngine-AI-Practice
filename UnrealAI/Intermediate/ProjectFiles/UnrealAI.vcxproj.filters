@@ -62,12 +62,6 @@
     <Filter Include="Source\UnrealAI\UnrealAI Fundamentals">
       <UniqueIdentifier>{3DBAF6F4-D16B-419C-AA57-7C83E255501C}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.cpp">
-      <Filter>Source\UnrealAI\UnrealAI Fundamentals</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AIFundamentals_BTService.h">
-      <Filter>Source\UnrealAI\UnrealAI Fundamentals</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalCharacter.cpp">
       <Filter>Source\UnrealAI\UnrealAI Fundamentals</Filter>
     </ClCompile>

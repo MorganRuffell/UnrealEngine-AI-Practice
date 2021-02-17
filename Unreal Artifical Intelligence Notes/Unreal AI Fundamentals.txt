@@ -4,7 +4,7 @@ AI & Navigation Systems: Basic Assets
 ## Keywords ##
 
 Services		These are BP graphs themselves, but you can also create C++ versions they control how behaviour works inside of Unreal Engine. It is always
-			best to create a base implementation of this inside C++.
+			best to create a base implementation of this inside C++. At your current level stick with blueprinting this logic.
 
 Decorators		Decorators function like conditionals or if statements, they decide whether something can be executed.	
 
@@ -21,6 +21,16 @@ the required public depnednecies module. "GameplayTasks".
 It requires it as a literal string, as it joins a range of public dependency modules instantiated at runtime.
 
 
+## Introduction ##
+
+Artifical Intelligene is exactly what it says on the tin, making something seem  like it's got a brain. 
+
+Many computational devices have something considered artifical intelligence. Alexa herself is artifical intelligence.
+
+
+
+
+
 
 Required Assets
 
@@ -33,6 +43,7 @@ Please remember that all base classes have C++ varients that you can extend the 
 	This also comes with a behaviour tree.
 
 	-	You can also base this off of another blackboard through the parent tab.
+	-	On the blackboard we also set up variables that we can change through the use of our behaviour tree.
 
 -	AI Controller. This is what we are using in place of the player controller which posesses a pawn. This one is a computer version of something that posesses a pawn.
 
@@ -49,8 +60,23 @@ Behaviour tree:
 -	In the attached project you can see a blueprint implementation for working with this specific AI system. It is highly reccomended that you follow this
 	there is a reason that we do not do this in C++. Blackboards and behaviour trees are unreal objects, they are not a class that we can create stuff from before it is instantiated
 	
--	There are two kinds of things you can create:
+-	There are three kinds of things you can create:
 
 	-	Selectors	These allow you to select decorators and services.	
 	
 	-	Sequences	Sequences allow you to set up a sequence of selectors.
+
+	-	Tasks		Tasks allow you to create things that need to be done.
+
+-	Inside of these selectors and sequence nodes, we can create Decorators, Services and Tasks:
+
+	-	Decorators function like conditional if statements, there are many types of these flow control systems and you need to become familiar with several types
+	-	Services, services are where the actual magic happens. These are where we can do logic and influence blackboard variables.
+	-	Task, stuff that needs to be done.
+
+
+	
+
+
+
+

@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeAI_FundamentalController() {}
 	UNREALAI_API UClass* Z_Construct_UClass_AAI_FundamentalController();
 	AIMODULE_API UClass* Z_Construct_UClass_AAIController();
 	UPackage* Z_Construct_UPackage__Script_UnrealAI();
+	AIMODULE_API UClass* Z_Construct_UClass_UBlackboardComponent_NoRegister();
 // End Cross Module References
 	void AAI_FundamentalController::StaticRegisterNativesAAI_FundamentalController()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeAI_FundamentalController() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentBlackboard_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentBlackboard;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -40,12 +46,25 @@ void EmptyLinkFunctionForGeneratedCodeAI_FundamentalController() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAI_FundamentalController_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "UnrealAI Fundamentals/AI_FundamentalController.h" },
 		{ "ModuleRelativePath", "UnrealAI Fundamentals/AI_FundamentalController.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAI_FundamentalController_Statics::NewProp_CurrentBlackboard_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "AI" },
+		{ "Comment", "/** blackboard */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "UnrealAI Fundamentals/AI_FundamentalController.h" },
+		{ "ToolTip", "blackboard" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAI_FundamentalController_Statics::NewProp_CurrentBlackboard = { "CurrentBlackboard", nullptr, (EPropertyFlags)0x004000000008001c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAI_FundamentalController, CurrentBlackboard), Z_Construct_UClass_UBlackboardComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAI_FundamentalController_Statics::NewProp_CurrentBlackboard_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAI_FundamentalController_Statics::NewProp_CurrentBlackboard_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAI_FundamentalController_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAI_FundamentalController_Statics::NewProp_CurrentBlackboard,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAI_FundamentalController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AAI_FundamentalController>::IsAbstract,
 	};
@@ -55,11 +74,11 @@ void EmptyLinkFunctionForGeneratedCodeAI_FundamentalController() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AAI_FundamentalController_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AAI_FundamentalController_Statics::PropPointers),
 		0,
 		0x009002A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AAI_FundamentalController_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AAI_FundamentalController_Statics::Class_MetaDataParams))
@@ -73,7 +92,7 @@ void EmptyLinkFunctionForGeneratedCodeAI_FundamentalController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAI_FundamentalController, 3217139674);
+	IMPLEMENT_CLASS(AAI_FundamentalController, 76344303);
 	template<> UNREALAI_API UClass* StaticClass<AAI_FundamentalController>()
 	{
 		return AAI_FundamentalController::StaticClass();
