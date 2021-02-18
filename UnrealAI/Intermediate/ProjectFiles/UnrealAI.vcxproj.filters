@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealAI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E80B385B-52F1-40A8-9A32-0087E6F0E398}</UniqueIdentifier>
+      <UniqueIdentifier>{1B0F7E86-C58B-4F5B-BA56-58CDC37A95FF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealAI.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{42B07289-D593-49A3-8894-4CFAA23635ED}</UniqueIdentifier>
+      <UniqueIdentifier>{9F347FEC-B551-4191-9218-5E45EA487FDC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealAI">
-      <UniqueIdentifier>{B7F322FE-A767-4DBD-BE8F-6D9D183A79E0}</UniqueIdentifier>
+      <UniqueIdentifier>{8EF96E45-F28A-4286-88C4-AE610FF25A14}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealAI\CharacterMovementModes.cpp">
       <Filter>Source\UnrealAI</Filter>
@@ -60,7 +60,7 @@
       <Filter>Source\UnrealAI</Filter>
     </ClInclude>
     <Filter Include="Source\UnrealAI\UnrealAI Fundamentals">
-      <UniqueIdentifier>{3DBAF6F4-D16B-419C-AA57-7C83E255501C}</UniqueIdentifier>
+      <UniqueIdentifier>{C5284252-6FA6-4AA7-A579-A4DD31A81ADF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalCharacter.cpp">
       <Filter>Source\UnrealAI\UnrealAI Fundamentals</Filter>
