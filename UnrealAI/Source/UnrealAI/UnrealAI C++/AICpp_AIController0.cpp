@@ -1,10 +1,12 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "BehaviorTree/BehaviorTreeComponent.h"
+#include "Engine.h"
 #include "BehaviorTree/BehaviorTree.h"
 #include "BehaviorTree/BlackboardComponent.h"
 #include "UObject/ConstructorHelpers.h"
 #include "AICpp_Character.h"
+#include "GameFramework/Actor.h"
 #include "AICpp_AIController0.h"
 
 AAICpp_AIController0::AAICpp_AIController0(FObjectInitializer const& objectIntializer)
@@ -31,6 +33,7 @@ void AAICpp_AIController0::BeginPlay()
 	Behaviour_treeComponent->StartTree(*Behaviour_tree);
 
 }
+
 
 void AAICpp_AIController0::OnPossess(APawn* const InPawn)
 {

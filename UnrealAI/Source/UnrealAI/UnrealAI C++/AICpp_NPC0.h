@@ -20,7 +20,6 @@ class UNREALAI_API AAICpp_NPC0 : public ACharacter
 	USphereComponent* EnemyCollisionSphere;
 
 
-
 public:
 	// Sets default values for this character's properties
 	AAICpp_NPC0();
@@ -33,7 +32,5 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 };

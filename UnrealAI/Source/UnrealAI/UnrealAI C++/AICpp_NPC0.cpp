@@ -39,10 +39,3 @@ void AAICpp_NPC0::Tick(float DeltaTime)
 
 }
 
-// Called to bind functionality to input
-void AAICpp_NPC0::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-}
-

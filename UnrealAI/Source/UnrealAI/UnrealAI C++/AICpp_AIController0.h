@@ -18,6 +18,8 @@ class UNREALAI_API AAICpp_AIController0 : public AAIController
 public:
 	//In order to work with this we have to include this advanced constructor it passes FObjectIntializer by const&
 	AAICpp_AIController0(FObjectInitializer const& objectIntializer = FObjectInitializer::Get());
+	
+	
 	~AAICpp_AIController0();
 
 public:
@@ -28,6 +30,7 @@ public:
 	void OnPossess(APawn* const InPawn) override;
 
 	class UBlackboardComponent* get_blackboard() const;
+
 
 private:
 

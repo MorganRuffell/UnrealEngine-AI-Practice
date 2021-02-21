@@ -1,0 +1,20 @@
+Differences Between Creating Tasks in BP & CPP
+
+Tasks:
+
+	- 	When deriving tasks in cpp for your behaviour trees you need to derieve these from UBTTask_BlackboardBase
+	-	The difference between this class and the one BP inherits from is the fact that this one does not contain
+		OnExecute as a BlueprintImplementatble Event. 
+
+
+Blueprints:
+
+	- Origianlly we get an event called recieve execute AI.
+
+
+
+
+CPP:	
+	
+	- In C++ execute AI does not exist.
+	
