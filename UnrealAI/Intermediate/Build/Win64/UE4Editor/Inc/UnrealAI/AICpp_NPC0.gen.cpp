@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeAICpp_NPC0() {}
 	UNREALAI_API UClass* Z_Construct_UClass_AAICpp_NPC0();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_UnrealAI();
+	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
 	void AAICpp_NPC0::StaticRegisterNativesAAICpp_NPC0()
@@ -32,6 +33,10 @@ void EmptyLinkFunctionForGeneratedCodeAICpp_NPC0() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AIBehaviourTreeSystem_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AIBehaviourTreeSystem;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EnemyCollisionSphere_MetaData[];
 #endif
@@ -52,6 +57,14 @@ void EmptyLinkFunctionForGeneratedCodeAICpp_NPC0() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAICpp_NPC0_Statics::NewProp_AIBehaviourTreeSystem_MetaData[] = {
+		{ "AllowPrivateAccess", "TRUE" },
+		{ "Category", "Behaviour" },
+		{ "ModuleRelativePath", "UnrealAI C++/AICpp_NPC0.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAICpp_NPC0_Statics::NewProp_AIBehaviourTreeSystem = { "AIBehaviourTreeSystem", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAICpp_NPC0, AIBehaviourTreeSystem), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAICpp_NPC0_Statics::NewProp_AIBehaviourTreeSystem_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAICpp_NPC0_Statics::NewProp_AIBehaviourTreeSystem_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAICpp_NPC0_Statics::NewProp_EnemyCollisionSphere_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "CollectionSphere" },
@@ -61,6 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeAICpp_NPC0() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAICpp_NPC0_Statics::NewProp_EnemyCollisionSphere = { "EnemyCollisionSphere", nullptr, (EPropertyFlags)0x004000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAICpp_NPC0, EnemyCollisionSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAICpp_NPC0_Statics::NewProp_EnemyCollisionSphere_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAICpp_NPC0_Statics::NewProp_EnemyCollisionSphere_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAICpp_NPC0_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAICpp_NPC0_Statics::NewProp_AIBehaviourTreeSystem,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAICpp_NPC0_Statics::NewProp_EnemyCollisionSphere,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAICpp_NPC0_Statics::StaticCppClassTypeInfo = {
@@ -90,7 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeAICpp_NPC0() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAICpp_NPC0, 2694424712);
+	IMPLEMENT_CLASS(AAICpp_NPC0, 2333310605);
 	template<> UNREALAI_API UClass* StaticClass<AAICpp_NPC0>()
 	{
 		return AAICpp_NPC0::StaticClass();

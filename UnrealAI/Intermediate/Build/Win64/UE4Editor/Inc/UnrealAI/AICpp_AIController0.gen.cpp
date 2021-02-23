@@ -43,9 +43,9 @@ void EmptyLinkFunctionForGeneratedCodeAICpp_AIController0() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Behaviour_tree;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Behaviour_treeComponent_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BehaviourTree_Component_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Behaviour_treeComponent;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BehaviourTree_Component;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -65,11 +65,13 @@ void EmptyLinkFunctionForGeneratedCodeAICpp_AIController0() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_blackboardComponent_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Artifical Intelligence" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "UnrealAI C++/AICpp_AIController0.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_blackboardComponent = { "blackboardComponent", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAICpp_AIController0, blackboardComponent), Z_Construct_UClass_UBlackboardComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_blackboardComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_blackboardComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_blackboardComponent = { "blackboardComponent", nullptr, (EPropertyFlags)0x004000000009000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAICpp_AIController0, blackboardComponent), Z_Construct_UClass_UBlackboardComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_blackboardComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_blackboardComponent_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_Behaviour_tree_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -79,18 +81,18 @@ void EmptyLinkFunctionForGeneratedCodeAICpp_AIController0() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_Behaviour_tree = { "Behaviour_tree", nullptr, (EPropertyFlags)0x0040000000000805, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAICpp_AIController0, Behaviour_tree), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_Behaviour_tree_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_Behaviour_tree_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_Behaviour_treeComponent_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_BehaviourTree_Component_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Artifical Intelligence" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "UnrealAI C++/AICpp_AIController0.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_Behaviour_treeComponent = { "Behaviour_treeComponent", nullptr, (EPropertyFlags)0x004000000008080d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAICpp_AIController0, Behaviour_treeComponent), Z_Construct_UClass_UBehaviorTreeComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_Behaviour_treeComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_Behaviour_treeComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_BehaviourTree_Component = { "BehaviourTree_Component", nullptr, (EPropertyFlags)0x004000000008080d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAICpp_AIController0, BehaviourTree_Component), Z_Construct_UClass_UBehaviorTreeComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_BehaviourTree_Component_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_BehaviourTree_Component_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAICpp_AIController0_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_blackboardComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_Behaviour_tree,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_Behaviour_treeComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAICpp_AIController0_Statics::NewProp_BehaviourTree_Component,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAICpp_AIController0_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AAICpp_AIController0>::IsAbstract,
@@ -119,7 +121,7 @@ void EmptyLinkFunctionForGeneratedCodeAICpp_AIController0() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAICpp_AIController0, 4047738559);
+	IMPLEMENT_CLASS(AAICpp_AIController0, 426891806);
 	template<> UNREALAI_API UClass* StaticClass<AAICpp_AIController0>()
 	{
 		return AAICpp_AIController0::StaticClass();

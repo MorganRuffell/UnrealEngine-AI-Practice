@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealAI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{896741C8-0019-427D-8CE8-708E135E72A0}</UniqueIdentifier>
+      <UniqueIdentifier>{C75C6DD2-EF6A-468A-944F-997712374612}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealAI.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C8BFEF84-FBE4-4A74-A17B-B5EA16584094}</UniqueIdentifier>
+      <UniqueIdentifier>{9FB2473C-BCE2-4A05-97F6-6F8784675643}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealAI">
-      <UniqueIdentifier>{38E14E16-F2B8-4064-A92A-38247017A995}</UniqueIdentifier>
+      <UniqueIdentifier>{EAF9B58F-CAD3-4599-9BC7-139AE4090C68}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealAI\CharacterMovementModes.cpp">
       <Filter>Source\UnrealAI</Filter>
@@ -60,7 +60,7 @@
       <Filter>Source\UnrealAI</Filter>
     </ClInclude>
     <Filter Include="Source\UnrealAI\UnrealAI C++">
-      <UniqueIdentifier>{B121904E-5300-4533-8B1F-E9CD614C9CAD}</UniqueIdentifier>
+      <UniqueIdentifier>{63C45E11-DB52-48AC-8DD0-83290C76081D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealAI\UnrealAI C++\AICpp_AIController0.cpp">
       <Filter>Source\UnrealAI\UnrealAI C++</Filter>
@@ -83,14 +83,20 @@
     <ClInclude Include="..\..\Source\UnrealAI\UnrealAI C++\AICpp_NPC0.h">
       <Filter>Source\UnrealAI\UnrealAI C++</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\UnrealAI\UnrealAI C++\BTTask_FindRandomLocation.cpp">
+    <ClCompile Include="..\..\Source\UnrealAI\UnrealAI C++\BTService_CheckForPlayer.cpp">
       <Filter>Source\UnrealAI\UnrealAI C++</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\UnrealAI\UnrealAI C++\BTTask_FindRandomLocation.h">
+    <ClInclude Include="..\..\Source\UnrealAI\UnrealAI C++\BTService_CheckForPlayer.h">
+      <Filter>Source\UnrealAI\UnrealAI C++</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealAI\UnrealAI C++\BTTask_MoveToPlayer.cpp">
+      <Filter>Source\UnrealAI\UnrealAI C++</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealAI\UnrealAI C++\BTTask_MoveToPlayer.h">
       <Filter>Source\UnrealAI\UnrealAI C++</Filter>
     </ClInclude>
     <Filter Include="Source\UnrealAI\UnrealAI Fundamentals">
-      <UniqueIdentifier>{80DEDC34-FE12-423E-A93A-5AA2248AFCEB}</UniqueIdentifier>
+      <UniqueIdentifier>{C994BD4F-9B6F-4C5A-A6E5-70E3D9D3934C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalCharacter.cpp">
       <Filter>Source\UnrealAI\UnrealAI Fundamentals</Filter>

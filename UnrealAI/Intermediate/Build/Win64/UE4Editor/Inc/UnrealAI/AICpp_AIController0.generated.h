@@ -59,7 +59,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAICpp_AIController0); \
 
 
 #define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__Behaviour_treeComponent() { return STRUCT_OFFSET(AAICpp_AIController0, Behaviour_treeComponent); } \
+	FORCEINLINE static uint32 __PPO__BehaviourTree_Component() { return STRUCT_OFFSET(AAICpp_AIController0, BehaviourTree_Component); } \
 	FORCEINLINE static uint32 __PPO__Behaviour_tree() { return STRUCT_OFFSET(AAICpp_AIController0, Behaviour_tree); } \
 	FORCEINLINE static uint32 __PPO__blackboardComponent() { return STRUCT_OFFSET(AAICpp_AIController0, blackboardComponent); }
 

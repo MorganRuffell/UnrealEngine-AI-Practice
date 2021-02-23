@@ -6,6 +6,7 @@
 #include "BehaviorTree/BlackboardComponent.h"
 #include "UObject/ConstructorHelpers.h"
 #include "AICpp_Character.h"
+#include "AICpp_NPC0.h"
 #include "GameFramework/Actor.h"
 #include "AICpp_AIController0.h"
 
@@ -17,8 +18,8 @@ AAICpp_AIController0::AAICpp_AIController0(FObjectInitializer const& objectIntia
 		Behaviour_tree = Obj.Object;
 	}
 	
-	Behaviour_treeComponent = objectIntializer.CreateDefaultSubobject<UBehaviorTreeComponent>(this,TEXT("AI0_BehaviourComp"));
-	Blackboard = objectIntializer.CreateDefaultSubobject<UBlackboardComponent>(this, TEXT("AI0_BlackboardComp"));
+	BehaviourTree_Component = objectIntializer.CreateDefaultSubobject<UBehaviorTreeComponent>(this,TEXT("AI0_BehaviourComp"));
+	blackboardComponent = objectIntializer.CreateDefaultSubobject<UBlackboardComponent>(this, TEXT("AI0_BlackboardComp"));
 
 }
 
@@ -30,19 +31,26 @@ void AAICpp_AIController0::BeginPlay()
 {
 	Super::BeginPlay();
 	RunBehaviorTree(Behaviour_tree);
-	Behaviour_treeComponent->StartTree(*Behaviour_tree);
-
+	BehaviourTree_Component->StartTree(*Behaviour_tree);
 }
 
 
 void AAICpp_AIController0::OnPossess(APawn* const InPawn)
 {
 	Super::OnPossess(InPawn);
-	if (Blackboard)
+	
+	AAICpp_NPC0* Char = Cast<AAICpp_NPC0>(InPawn);
+
+	if (Char && Char->AIBehaviourTreeSystem)
 	{
-		//Blackboard->IntializeBlackboard(*Behaviour_tree->BlackboardAsset)
-		Blackboard->InitializeBlackboard(*Behaviour_tree->GetBlackboardAsset());
+		blackboardComponent->InitializeBlackboard(*Char->AIBehaviourTreeSystem->BlackboardAsset);
+	
+		EnemyKeyID = blackboardComponent->GetKeyID("TargetLocation");
+
+		BehaviourTree_Component->StartTree(*Char->AIBehaviourTreeSystem);
 	}
+
+
 }
 
 UBlackboardComponent* AAICpp_AIController0::get_blackboard() const

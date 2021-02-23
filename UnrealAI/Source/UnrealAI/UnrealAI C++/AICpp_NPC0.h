@@ -21,8 +21,13 @@ class UNREALAI_API AAICpp_NPC0 : public ACharacter
 
 
 public:
-	// Sets default values for this character's properties
+
 	AAICpp_NPC0();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Behaviour", Meta = (AllowPrivateAccess = true))
+	class UBehaviorTree* AIBehaviourTreeSystem;
+
+	// Sets default values for this character's properties
 
 protected:
 	// Called when the game starts or when spawned

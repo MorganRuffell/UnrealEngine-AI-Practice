@@ -14,6 +14,14 @@ class UNREALAI_API AAICpp_AIController0 : public AAIController
 {
 	GENERATED_BODY()
 
+	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "Artifical Intelligence", meta = (AllowPrivateAccess = "true"))
+	class UBehaviorTreeComponent* BehaviourTree_Component;
+
+	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "Artifical Intelligence", meta = (AllowPrivateAccess = "true"))
+	class UBehaviorTree* Behaviour_tree;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Artifical Intelligence", meta = (AllowPrivateAccess = "true"))
+	class UBlackboardComponent* blackboardComponent;
 
 public:
 	//In order to work with this we have to include this advanced constructor it passes FObjectIntializer by const&
@@ -26,22 +34,18 @@ public:
 
 	void BeginPlay() override;
 
+	
+
+
 	//Called on possession of Character
 	void OnPossess(APawn* const InPawn) override;
 
 	class UBlackboardComponent* get_blackboard() const;
 
+	uint8 EnemyKeyID;
 
-private:
+protected:
 
-	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "Artifical Intelligence", meta = (AllowPrivateAccess = "true"))
-	class UBehaviorTreeComponent* Behaviour_treeComponent;
-
-	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "Artifical Intelligence", meta = (AllowPrivateAccess = "true"))
-	class UBehaviorTree* Behaviour_tree;
-
-	UPROPERTY()
-	class UBlackboardComponent* blackboardComponent;
 
 
 };

@@ -713,6 +713,8 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardComponent.generated.h
 C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI C++\AICpp_Character.h
 C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAI\AICpp_Character.generated.h
+C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI C++\AICpp_NPC0.h
+C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAI\AICpp_NPC0.generated.h
 C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Source\UnrealAI\UnrealAI C++\AICpp_AIController0.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\AIController.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\Navigation/PathFollowingComponent.h
