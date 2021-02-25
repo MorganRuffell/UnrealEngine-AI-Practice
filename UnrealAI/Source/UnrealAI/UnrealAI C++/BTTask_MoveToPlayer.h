@@ -9,7 +9,6 @@
 #include "BehaviorTree/BlackboardComponent.h"
 #include "BehaviorTree/Tasks/BTTask_BlackboardBase.h"
 #include "BehaviorTree/BehaviorTreeTypes.h"
-#include "BehaviorTree/Blackboard/BlackboardKeyType.h"
 #include "AICpp_NPC0.h"
 #include "AICpp_AIController0.h"
 #include "BTTask_MoveToPlayer.generated.h"
