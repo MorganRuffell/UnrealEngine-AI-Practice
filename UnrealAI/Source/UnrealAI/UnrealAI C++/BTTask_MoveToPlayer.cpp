@@ -2,7 +2,6 @@
 
 #include "BTTask_MoveToPlayer.h"
 #include "BehaviorTree/Blackboard/BlackboardKeyType_Object.h"
-
 #include "UnrealAI/UnrealAICharacter.h"
 
 EBTNodeResult::Type UBTTask_MoveToPlayer::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
