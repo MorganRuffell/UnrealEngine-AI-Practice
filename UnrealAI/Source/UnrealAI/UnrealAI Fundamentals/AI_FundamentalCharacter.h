@@ -43,7 +43,6 @@ public:
 	float SphereRadius;
 
 
-
 	UFUNCTION(BlueprintImplementableEvent)
 	void Walk();
 
