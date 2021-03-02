@@ -1,0 +1,1507 @@
+﻿Log file open, 03/01/21 15:48:57
+LogInit: Display: Running engine for game: UnrealAI
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 59 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.798654
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin DarkerNodes
+LogPluginManager: Mounting plugin ElectronicNodes
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i9-10850K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 3090
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.03.01-15.48.58:488][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.01-15.48.58:488][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.01-15.48.58:488][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Engine.ini]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.01-15.48.58:489][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Engine.ini]
+[2021.03.01-15.48.58:489][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Engine.ini]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.01-15.48.58:489][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.03.01-15.48.58:490][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Engine.ini]
+[2021.03.01-15.48.58:490][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.01-15.48.58:490][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.01-15.48.58:490][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.01-15.48.58:490][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.01-15.48.58:490][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.01-15.48.58:490][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.01-15.48.58:490][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.03.01-15.48.58:490][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.01-15.48.58:490][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.01-15.48.58:490][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.01-15.48.58:490][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.01-15.48.58:490][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.01-15.48.58:490][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.01-15.48.58:490][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Engine.ini]
+[2021.03.01-15.48.58:490][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Engine.ini]
+[2021.03.01-15.48.58:500][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:500][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.01-15.48.58:500][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.01-15.48.58:500][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:500][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.01-15.48.58:500][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:500][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.01-15.48.58:500][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.01-15.48.58:500][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.01-15.48.58:501][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.01-15.48.58:502][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.01-15.48.58:503][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.01-15.48.58:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.01-15.48.58:505][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.01-15.48.58:506][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.01-15.48.58:506][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.03.01-15.48.58:507][  0]LogHAL: Display: Platform has ~ 32 GB [34252365824 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.01-15.48.58:507][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.01-15.48.58:507][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:507][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.01-15.48.58:507][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.01-15.48.58:507][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:507][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.01-15.48.58:508][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.01-15.48.58:509][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.01-15.48.58:510][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:510][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.03.01-15.48.58:511][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Scalability.ini]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.03.01-15.48.58:512][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.01-15.48.58:515][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.01-15.48.58:515][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.01-15.48.58:515][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.03.01-15.48.58:515][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Config/Windows/Engine.ini]
+[2021.03.01-15.48.58:516][  0]LogInit: Computer: DESKTOP-A1LV5LA
+[2021.03.01-15.48.58:516][  0]LogInit: User: Morgan
+[2021.03.01-15.48.58:516][  0]LogInit: CPU Page size=4096, Cores=10
+[2021.03.01-15.48.58:516][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.01-15.48.58:517][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.03.01-15.48.58:517][  0]LogMemory: Platform Memory Stats for Windows
+[2021.03.01-15.48.58:517][  0]LogMemory: Process Physical Memory: 118.32 MB used, 118.32 MB peak
+[2021.03.01-15.48.58:517][  0]LogMemory: Process Virtual Memory: 103.88 MB used, 103.88 MB peak
+[2021.03.01-15.48.58:517][  0]LogMemory: Physical Memory: 10575.79 MB used,  22089.82 MB free, 32665.60 MB total
+[2021.03.01-15.48.58:517][  0]LogMemory: Virtual Memory: 5214.14 MB used,  134212512.00 MB free, 134217728.00 MB total
+[2021.03.01-15.48.58:526][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.03.01-15.48.58:957][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.03.01-15.48.58:959][  0]LogInit: Using OS detected language (en-GB).
+[2021.03.01-15.48.58:959][  0]LogInit: Using OS detected locale (en-GB).
+[2021.03.01-15.48.58:979][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2021.03.01-15.48.59:310][  0]LogInit: Setting process to per monitor DPI aware
+[2021.03.01-15.48.59:383][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.01-15.48.59:384][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.01-15.49.00:290][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.01-15.49.00:290][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.03.01-15.49.00:290][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.03.01-15.49.00:290][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.01-15.49.00:418][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3090' (Feature Level 11_0)
+[2021.03.01-15.49.00:418][  0]LogD3D11RHI:       24348/0/16332 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.03.01-15.49.00:425][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.01-15.49.00:425][  0]LogD3D11RHI:       0/0/16332 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.01-15.49.00:425][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.01-15.49.00:432][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.01-15.49.00:432][  0]LogD3D11RHI:     GPU DeviceId: 0x2204 (for the marketing name, search the web for "GPU Device Id")
+[2021.03.01-15.49.00:432][  0]LogWindows: EnumDisplayDevices:
+[2021.03.01-15.49.00:433][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3090' (P:1 D:1)
+[2021.03.01-15.49.00:433][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3090' (P:0 D:1)
+[2021.03.01-15.49.00:433][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3090' (P:0 D:0)
+[2021.03.01-15.49.00:433][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3090' (P:0 D:0)
+[2021.03.01-15.49.00:434][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.03.01-15.49.00:434][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3090
+[2021.03.01-15.49.00:434][  0]LogD3D11RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
+[2021.03.01-15.49.00:434][  0]LogD3D11RHI:      Driver Date: 1-22-2021
+[2021.03.01-15.49.00:434][  0]LogRHI: Texture pool is 17043 MB (70% of 24348 MB)
+[2021.03.01-15.49.00:524][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.03.01-15.49.00:525][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.01-15.49.00:525][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.03.01-15.49.00:555][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2021.03.01-15.49.00:875][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.03.01-15.49.00:912][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.01-15.49.00:912][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.01-15.49.00:912][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.01-15.49.00:912][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.01-15.49.00:912][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.01-15.49.00:912][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.01-15.49.00:912][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.01-15.49.00:912][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.01-15.49.00:912][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.01-15.49.00:913][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.01-15.49.00:972][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.03.01-15.49.00:972][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.03.01-15.49.00:998][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.03.01-15.49.01:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.01-15.49.01:037][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.01-15.49.01:056][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.01-15.49.01:076][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.01-15.49.01:096][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.01-15.49.01:115][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.01-15.49.01:154][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.03.01-15.49.01:154][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.03.01-15.49.01:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.03.01-15.49.01:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.03.01-15.49.01:200][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.01-15.49.01:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.03.01-15.49.01:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.03.01-15.49.01:260][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.03.01-15.49.01:261][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.01-15.49.01:296][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.01-15.49.01:592][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Intermediate/Shaders/WorkingDirectory/19856/).
+[2021.03.01-15.49.01:592][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Morgan/AppData/Local/Temp/UnrealShaderWorkingDir/A6AF0EB246973902F80B18BEA742FDE5/'.
+[2021.03.01-15.49.01:593][  0]LogXGEController: Cleaning working directory: C:/Users/Morgan/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.03.01-15.49.01:593][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.01-15.49.01:594][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.01-15.49.01:594][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.01-15.49.03:126][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.01-15.49.03:210][  0]LogDerivedDataCache: Loaded boot cache 0.08s 79MB C:/Users/Morgan/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.01-15.49.03:210][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Morgan/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.03.01-15.49.03:210][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.01-15.49.03:210][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.01-15.49.03:211][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.01-15.49.03:211][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.01-15.49.03:223][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.01-15.49.03:223][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.01-15.49.03:223][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.01-15.49.03:226][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Morgan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.01-15.49.03:226][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.01-15.49.03:226][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.01-15.49.03:279][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.01-15.49.03:284][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.01-15.49.03:339][  0]LogAssetRegistry: FAssetRegistry took 0.0058 seconds to start up
+[2021.03.01-15.49.03:628][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.01-15.49.03:945][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.01-15.49.03:945][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.01-15.49.03:945][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.01-15.49.03:945][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.01-15.49.03:945][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.01-15.49.03:994][  0]LogNetVersion: UnrealAI 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2221238871)
+[2021.03.01-15.49.04:806][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000201EAB01800), frame # 0
+[2021.03.01-15.49.04:806][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000201EAA2E840), frame # 0
+[2021.03.01-15.49.04:809][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000201EAA7DC00), frame # 0
+[2021.03.01-15.49.04:893][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.064002 seconds
+[2021.03.01-15.49.04:897][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.03.01-15.49.04:897][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.03.01-15.49.04:897][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.01-15.49.06:307][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.01-15.49.06:326][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.01-15.49.07:108][  0]SourceControl: Source control is disabled
+[2021.03.01-15.49.07:108][  0]SourceControl: Source control is disabled
+[2021.03.01-15.49.07:130][  0]SourceControl: Source control is disabled
+[2021.03.01-15.49.07:146][  0]SourceControl: Source control is disabled
+[2021.03.01-15.49.07:177][  0]SourceControl: Source control is disabled
+[2021.03.01-15.49.08:310][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.01-15.49.08:398][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.01-15.49.08:398][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.01-15.49.08:560][  0]LogOcInput: OculusInput pre-init called
+[2021.03.01-15.49.08:598][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.03.01-15.49.08:598][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.03.01-15.49.09:027][  0]LogEngine: Initializing Engine...
+[2021.03.01-15.49.09:029][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.01-15.49.09:029][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.03.01-15.49.09:031][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.03.01-15.49.09:219][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.01-15.49.09:254][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.01-15.49.09:254][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000201F0EF3C00), frame # 0
+[2021.03.01-15.49.09:255][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000201F0EEFB00), frame # 0
+[2021.03.01-15.49.09:273][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.01-15.49.09:273][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.01-15.49.09:273][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.01-15.49.09:273][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.01-15.49.09:273][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.01-15.49.09:273][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.01-15.49.09:273][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.01-15.49.09:273][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.01-15.49.09:275][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.01-15.49.09:275][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.01-15.49.09:298][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.01-15.49.09:298][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.03.01-15.49.09:411][  0]LogAudioMixer: Display: Using Audio Device BenQ GL2580 (NVIDIA High Definition Audio)
+[2021.03.01-15.49.09:412][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.01-15.49.09:419][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.01-15.49.09:419][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.01-15.49.09:420][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.01-15.49.09:421][  0]LogInit: FAudioDevice initialized.
+[2021.03.01-15.49.09:422][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.01-15.49.09:461][  0]LogDerivedDataCache: Saved boot cache 0.04s 79MB C:/Users/Morgan/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.01-15.49.09:464][  0]LogInit: Texture streaming: Enabled
+[2021.03.01-15.49.09:524][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.01-15.49.09:524][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.01-15.49.09:527][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.01-15.49.09:568][  0]LogInit: Transaction tracking system initialized
+[2021.03.01-15.49.09:678][  0]BlueprintLog: New page: Editor Load
+[2021.03.01-15.49.10:034][  0]LocalizationService: Localization service is disabled
+[2021.03.01-15.49.10:526][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.01-15.49.10:527][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.01-15.49.11:049][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/' took 0.01s
+[2021.03.01-15.49.11:319][  0]SourceControl: Source control is disabled
+[2021.03.01-15.49.11:319][  0]LogUnrealEdMisc: Loading editor; pre map load, took 18.631
+[2021.03.01-15.49.11:320][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.01-15.49.11:321][  0]LightingResults: New page: Lighting Build
+[2021.03.01-15.49.11:323][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-15.49.11:324][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.49.11:324][  0]MapCheck: New page: Map Check
+[2021.03.01-15.49.11:324][  0]LightingResults: New page: Lighting Build
+[2021.03.01-15.49.11:343][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000201F0EF3C00), frame # 0
+[2021.03.01-15.49.11:343][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000201F0EEFB00), frame # 0
+[2021.03.01-15.49.11:344][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.03.01-15.49.11:529][  0]LogAIModule: Creating AISystem for world AI_01
+[2021.03.01-15.49.11:529][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000201DA9C8200), frame # 0
+[2021.03.01-15.49.11:529][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000201ED4CEFC0), frame # 0
+[2021.03.01-15.49.11:557][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.01-15.49.11:575][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.03.01-15.49.11:576][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.01-15.49.11:576][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.309ms to complete.
+[2021.03.01-15.49.11:576][  0]LogFileHelpers: Loading map 'AI_01' took 0.257
+[2021.03.01-15.49.11:597][  0]LogUnrealEdMisc: Total Editor Startup Time, took 18.909
+[2021.03.01-15.49.11:763][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.49.11:770][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.49.11:776][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.49.11:784][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.49.11:810][  0]LogCollectionManager: Loaded 0 collections in 0.001564 seconds
+[2021.03.01-15.49.11:840][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/Collections/' took 0.00s
+[2021.03.01-15.49.11:840][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Developers/Morgan/Collections/' took 0.00s
+[2021.03.01-15.49.11:840][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Collections/' took 0.00s
+[2021.03.01-15.49.11:840][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3440 classes and 833 folders.
+[2021.03.01-15.49.11:848][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.01-15.49.12:085][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.01-15.49.12:105][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2021.03.01-15.49.12:188][  0]LogSlate: Took 0.001597 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.01-15.49.12:194][  0]LogSlate: Took 0.001479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.01-15.49.12:264][  0]LogRenderer: Reallocating scene render targets to support 2004x804 Format 10 NumSamples 1 (Frame:1).
+[2021.03.01-15.49.12:429][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.03.01-15.49.12:429][  0]LogLoad: (Engine Initialization) Total time: 19.74 seconds
+[2021.03.01-15.49.12:429][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.01-15.49.12:469][  0]LogAssetRegistry: Asset discovery search completed in 9.1332 seconds
+[2021.03.01-15.49.12:472][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.03.01-15.49.12:474][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.03.01-15.49.16:809][ 13]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.01-15.49.17:977][109]LogEditorViewport: Clicking on Actor (LMB): EnemyAI_01_C (EnemyAI_01)
+[2021.03.01-15.49.18:421][145]LogSlate: Took 0.001817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.03.01-15.49.32:756][579]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.01-15.49.32:776][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.01-15.49.32:779][579]PIE: New page: PIE session: AI_01 (1 Mar 2021, 15:49:32)
+[2021.03.01-15.49.32:781][579]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.03.01-15.49.32:783][579]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.03.01-15.49.32:783][579]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-15.49.32:797][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013694s)
+[2021.03.01-15.49.32:798][579]LogAIModule: Creating AISystem for world AI_01
+[2021.03.01-15.49.32:798][579]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000201A3B46E00), frame # 1579
+[2021.03.01-15.49.32:798][579]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002020CFBE700), frame # 1579
+[2021.03.01-15.49.32:799][579]LogPlayLevel: PIE: World Init took: (0.001518s)
+[2021.03.01-15.49.32:799][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AI_01.AI_01 to /Game/Maps/UEDPIE_0_AI_01.AI_01 (0.015601s)
+[2021.03.01-15.49.32:814][579]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.03.01-15.49.32:815][579]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.01-15.49.32:815][579]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.01-15.49.32:815][579]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.01-15.49.32:815][579]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.01-15.49.32:815][579]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.01-15.49.32:815][579]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.01-15.49.32:816][579]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.01-15.49.32:816][579]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.01-15.49.32:816][579]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.01-15.49.32:816][579]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.01-15.49.32:819][579]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.01-15.49.32:819][579]LogAudioMixer: Display: 1: FrontRight
+[2021.03.01-15.49.32:845][579]LogAudioMixer: Display: Using Audio Device BenQ GL2580 (NVIDIA High Definition Audio)
+[2021.03.01-15.49.32:845][579]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.01-15.49.32:845][579]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.01-15.49.32:845][579]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.01-15.49.32:846][579]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.01-15.49.32:857][579]LogInit: FAudioDevice initialized.
+[2021.03.01-15.49.32:864][579]LogLoad: Game class is 'UnrealAIGameMode'
+[2021.03.01-15.49.32:867][579]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AI_01.AI_01 up for play (max tick rate 0) at 2021.03.01-15.49.32
+[2021.03.01-15.49.32:868][579]LogWorld: Bringing up level for play took: 0.002410
+[2021.03.01-15.49.32:868][579]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.03.01-15.49.32:873][579]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.03.01-15.49.32:877][579]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-15.49.32:877][579]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-15.49.32:877][579]PIE: Server logged in
+[2021.03.01-15.49.32:878][579]PIE: Play in editor total start time 0.106 seconds.
+[2021.03.01-15.49.32:913][579]LogOutputDevice: Warning: 
+
+Script Stack (2 frames):
+BTTask_GetRandomDestination_C.ExecuteUbergraph_BTTask_GetRandomDestination
+BTTask_GetRandomDestination_C.ReceiveExecute
+
+[2021.03.01-15.49.32:913][579]LogOutputDevice: Error: Ensure condition failed: AsAIController [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/AIModule/Private/Navigation/NavFilter_AIControllerDefault.cpp] [Line: 18] 
+
+
+[2021.03.01-15.49.32:913][579]LogStats:             FDebug::EnsureFailed -  0.001 s
+[2021.03.01-15.49.59:115][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.49.59:115][ 95]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-15.49.59:116][ 95]LogWorld: UWorld::CleanupWorld for AI_01, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-15.49.59:116][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.49.59:125][ 95]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.01-15.49.59:126][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.49.59:165][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.49.59:167][ 95]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002020CFBE700), frame # 3095
+[2021.03.01-15.49.59:167][ 95]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000201A3B46E00), frame # 3095
+[2021.03.01-15.49.59:167][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.03.01-15.49.59:220][ 96]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.03.01-15.50.02:881][518]LogEditorViewport: Clicking on Actor (LMB): EnemyAI_01_C (EnemyAI_01)
+[2021.03.01-15.50.03:701][601]LogSlate: Took 0.001477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.01-15.50.03:719][601]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/AI_01/EnemyAI_01.EnemyAI_01
+[2021.03.01-15.50.04:002][601]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2021.03.01-15.50.04:848][601]LogSlate: Took 0.001660 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.01-15.50.23:368][ 40]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.01-15.50.24:770][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_01/EnemyAI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAI_01.uasset" SILENT=true
+[2021.03.01-15.50.24:844][156]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/EnemyAI_019E55B7E0471FF6404A5C3AA3C89BBB81.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAI_01.uasset'
+[2021.03.01-15.50.24:858][156]AssetCheck: New page: Asset Save: EnemyAI_01
+[2021.03.01-15.50.24:858][156]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_01/EnemyAI_01.EnemyAI_01
+[2021.03.01-15.50.26:623][298]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/AI_01/EnemyAIController_01.EnemyAIController_01
+[2021.03.01-15.50.31:044][589]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/AI_Fundamentals/AI_FundamentalsController.AI_FundamentalsController
+[2021.03.01-15.50.47:567][359]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Program Files/Epic Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/AIController.h'
+[2021.03.01-15.51.11:551][519]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.01-15.51.16:548][ 96]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/AI/AI_01/EnemyAIController_01.EnemyAIController_01 from AIController to AI_FundamentalsController_C...
+[2021.03.01-15.51.16:551][ 96]LogBlueprint: Error: [Compiler EnemyAIController_01] Internal Compiler Error: Tried to create a property EnemyLocation in scope SKEL_EnemyAIController_01_C, but another object (NameProperty /Game/AI/AI_Fundamentals/AI_FundamentalsController.SKEL_AI_FundamentalsController_C:EnemyLocation) already exists there.
+[2021.03.01-15.51.16:554][ 96]BlueprintLog: New page: Compile EnemyAIController_01
+[2021.03.01-15.51.16:554][ 96]LogBlueprint: Warning: [Compiler EnemyAIController_01] Found a member variable with a conflicting name (EnemyLocation) - changed to EnemyLocation_0.
+[2021.03.01-15.51.16:556][ 96]LogBlueprint: Error: [Compiler EnemyAIController_01] The property associated with  Enemy Location 0  could not be found in '/Game/AI/AI_01/EnemyAIController_01.EnemyAIController_01_C'
+[2021.03.01-15.51.16:597][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.03.01-15.51.16:624][ 96]LogSlate: Took 0.001132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.03.01-15.51.20:666][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_01/EnemyAIController_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAIController_01.uasset" SILENT=true
+[2021.03.01-15.51.20:682][570]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/EnemyAIController_01A1E6030E471823FEF7CE80B543775A35.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAIController_01.uasset'
+[2021.03.01-15.51.20:694][570]AssetCheck: New page: Asset Save: EnemyAIController_01
+[2021.03.01-15.51.20:694][570]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_01/EnemyAIController_01.EnemyAIController_01
+[2021.03.01-15.51.33:647][536]BlueprintLog: New page: Compile EnemyAIController_01
+[2021.03.01-15.51.33:649][536]LogBlueprint: Error: [Compiler EnemyAIController_01] The property associated with  Enemy Location 0  could not be found in '/Game/AI/AI_01/EnemyAIController_01.EnemyAIController_01_C'
+[2021.03.01-15.51.33:690][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.03.01-15.51.40:570][270]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.01-15.51.50:422][209]LogSlate: Window 'Reparent Blueprint' being destroyed
+[2021.03.01-15.51.50:426][209]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/AI/AI_01/EnemyAIController_01.EnemyAIController_01 from AI_FundamentalsController_C to AI_FundamentalController...
+[2021.03.01-15.51.50:430][209]BlueprintLog: New page: Compile EnemyAIController_01
+[2021.03.01-15.51.50:472][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.03.01-15.51.50:491][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_01/EnemyAIController_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAIController_01.uasset" SILENT=true
+[2021.03.01-15.51.50:505][209]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/EnemyAIController_01E211344642ACD0CA139B1489F82A0396.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAIController_01.uasset'
+[2021.03.01-15.51.50:516][209]AssetCheck: New page: Asset Save: EnemyAIController_01
+[2021.03.01-15.51.50:516][209]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_01/EnemyAIController_01.EnemyAIController_01
+[2021.03.01-15.51.52:510][419]BlueprintLog: New page: Compile EnemyAIController_01
+[2021.03.01-15.51.52:558][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.03.01-15.51.55:574][741]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-15.51.55:574][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.51.57:251][860]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.01-15.52.01:495][192]BlueprintLog: New page: Compile EnemyAI_01
+[2021.03.01-15.52.01:644][192]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.03.01-15.52.01:696][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_01/EnemyAI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAI_01.uasset" SILENT=true
+[2021.03.01-15.52.01:762][192]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/EnemyAI_0148A144CD4537EB128673BCBE5F398245.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAI_01.uasset'
+[2021.03.01-15.52.01:772][192]AssetCheck: New page: Asset Save: EnemyAI_01
+[2021.03.01-15.52.01:772][192]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_01/EnemyAI_01.EnemyAI_01
+[2021.03.01-15.52.02:816][261]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.01-15.52.02:840][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.01-15.52.02:840][261]PIE: New page: PIE session: AI_01 (1 Mar 2021, 15:52:02)
+[2021.03.01-15.52.02:875][261]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-15.52.02:887][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012410s)
+[2021.03.01-15.52.02:888][261]LogAIModule: Creating AISystem for world AI_01
+[2021.03.01-15.52.02:889][261]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002023BA5F600), frame # 12261
+[2021.03.01-15.52.02:889][261]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000201ED3CB880), frame # 12261
+[2021.03.01-15.52.02:889][261]LogPlayLevel: PIE: World Init took: (0.001519s)
+[2021.03.01-15.52.02:889][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AI_01.AI_01 to /Game/Maps/UEDPIE_0_AI_01.AI_01 (0.014388s)
+[2021.03.01-15.52.02:918][261]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.03.01-15.52.02:919][261]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.01-15.52.02:919][261]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.01-15.52.02:919][261]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.01-15.52.02:919][261]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.01-15.52.02:919][261]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.01-15.52.02:919][261]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.01-15.52.02:919][261]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.01-15.52.02:919][261]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.01-15.52.02:919][261]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.01-15.52.02:919][261]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.01-15.52.02:923][261]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.01-15.52.02:923][261]LogAudioMixer: Display: 1: FrontRight
+[2021.03.01-15.52.02:953][261]LogAudioMixer: Display: Using Audio Device BenQ GL2580 (NVIDIA High Definition Audio)
+[2021.03.01-15.52.02:953][261]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.01-15.52.02:953][261]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.01-15.52.02:953][261]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.01-15.52.02:954][261]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.01-15.52.02:966][261]LogInit: FAudioDevice initialized.
+[2021.03.01-15.52.02:975][261]LogLoad: Game class is 'UnrealAIGameMode'
+[2021.03.01-15.52.02:977][261]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AI_01.AI_01 up for play (max tick rate 0) at 2021.03.01-15.52.02
+[2021.03.01-15.52.02:977][261]LogWorld: Bringing up level for play took: 0.001851
+[2021.03.01-15.52.02:978][261]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.03.01-15.52.02:981][261]LogBehaviorTree: Warning: > Failed to find key 'EnemyTarget' in BB asset BlackboardData /Game/AI/AI_02/AI_0/NPC0_BB.NPC0_BB. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.52.02:982][261]LogBehaviorTree: Warning: > Failed to find key 'EnemyTarget' in BB asset BlackboardData /Game/AI/AI_02/AI_0/NPC0_BB.NPC0_BB. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.52.02:982][261]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-15.52.02:982][261]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-15.52.02:982][261]PIE: Server logged in
+[2021.03.01-15.52.02:983][261]PIE: Play in editor total start time 0.148 seconds.
+[2021.03.01-15.52.07:126][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.52.07:127][443]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-15.52.07:127][443]LogWorld: UWorld::CleanupWorld for AI_01, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-15.52.07:128][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.52.07:156][443]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.01-15.52.07:160][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.52.07:224][443]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.52.07:225][443]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000201ED3CB880), frame # 12443
+[2021.03.01-15.52.07:226][443]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002023BA5F600), frame # 12443
+[2021.03.01-15.52.07:230][443]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2021.03.01-15.52.07:378][444]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.03.01-15.52.15:985][334]BlueprintLog: New page: Compile EnemyAIController_01
+[2021.03.01-15.52.16:025][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.03.01-15.52.16:062][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_01/EnemyAIController_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAIController_01.uasset" SILENT=true
+[2021.03.01-15.52.16:075][334]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/EnemyAIController_0134196CC44BE7223E481140A69F6B6CE9.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAIController_01.uasset'
+[2021.03.01-15.52.16:086][334]AssetCheck: New page: Asset Save: EnemyAIController_01
+[2021.03.01-15.52.16:086][334]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_01/EnemyAIController_01.EnemyAIController_01
+[2021.03.01-15.52.16:699][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.01-15.52.16:726][402]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.03.01-15.52.16:768][402]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01C8199D88417F081640DC86AD057F6094.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap'
+[2021.03.01-15.52.16:801][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01_BuiltData" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset" SILENT=true
+[2021.03.01-15.52.16:931][402]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01_BuiltDataC5D733334DB3492C913A5E99A6A30F4F.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset'
+[2021.03.01-15.52.16:944][402]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.01-15.52.16:944][402]LogContentValidation: Display: Validating World /Game/Maps/AI_01.AI_01
+[2021.03.01-15.52.16:944][402]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/AI_01_BuiltData.AI_01_BuiltData
+[2021.03.01-15.52.22:053][  1]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI/AI_Fundamentals/AIFundamentalBehaviourTree.AIFundamentalBehaviourTree
+[2021.03.01-15.52.47:789][860]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01
+[2021.03.01-15.52.54:744][673]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI/AI_01/BT_AI_01.BT_AI_01
+[2021.03.01-15.52.54:769][673]LogBehaviorTree: Warning: BTService_AIFundamentalsFaceTarget[18]> Failed to find key 'EnemyTarget' in BB asset BlackboardData /Game/AI/AI_02/AI_0/NPC0_BB.NPC0_BB. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.08:391][159]LogBehaviorTree: Warning: BTService_AIFundamentalsFaceTarget[18]> Failed to find key 'EnemyTarget' in BB asset BlackboardData /Game/AI/AI_02/AI_0/NPC0_BB.NPC0_BB. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.11:136][432]LogBehaviorTree: Warning: BTService_AIFundamentalsFaceTarget[18]> Failed to find key 'EnemyTarget' in BB asset BlackboardData /Game/AI/AI_02/AI_0/NPC0_BB.NPC0_BB. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.19:800][334]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/AI/AI_Fundamentals/AI_FundamentalBlackBoard.AI_FundamentalBlackBoard
+[2021.03.01-15.53.24:287][767]LogBehaviorTree: Warning: Blackboard asset (AI_FundamentalBlackBoard) has (AI_FundamentalBlackBoard) in parent chain! Clearing value to avoid cycle.
+[2021.03.01-15.53.29:489][237]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI/AI_Fundamentals/AIFundamentalBehaviourTree.AIFundamentalBehaviourTree
+[2021.03.01-15.53.37:047][ 12]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI/AI_01/BT_AI_01.BT_AI_01
+[2021.03.01-15.53.37:073][ 12]LogBehaviorTree: Warning: BTService_AIFundamentalsFaceTarget[18]> Failed to find key 'EnemyTarget' in BB asset BlackboardData /Game/AI/AI_02/AI_0/NPC0_BB.NPC0_BB. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.39:984][329]LogBehaviorTree: Warning: BTService_AIFundamentalsFaceTarget[18]> Failed to find key 'EnemyTarget' in BB asset BlackboardData /Game/AI/AI_02/AI_0/NPC0_BB.NPC0_BB. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:055][701]LogBehaviorTree: Warning: Is Enemy Idle[1]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:055][701]LogBehaviorTree: Warning: Is Enemy Patrolling[3]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:055][701]LogBehaviorTree: Warning: Is Enemy Suspicious[5]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:056][701]LogBehaviorTree: Warning: Is Enemy Searching[7]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:056][701]LogBehaviorTree: Warning: Is Enemy Hostile[9]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:056][701]LogBehaviorTree: Warning: Blackboard Based Condition[11]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:056][701]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:056][701]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'EnemyTargetLocation' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:056][701]LogBehaviorTree: Warning: Blackboard Based Condition[23]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:056][701]LogBehaviorTree: Warning: IsInAttackRange[16]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:056][701]LogBehaviorTree: Warning: BTService_AIFundamentalsFaceTarget[18]> Failed to find key 'EnemyTarget' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:056][701]LogBehaviorTree: Warning: BTTask_Attack[20]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:056][701]LogBehaviorTree: Warning: Blackboard Based Condition[14]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:056][701]LogBehaviorTree: Warning: BTTask_MoveToAttack[22]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:056][701]LogBehaviorTree: Warning: IsInAttackRange[21]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:056][701]LogBehaviorTree: Warning: BTTask_GetRandomDestination[27]> Failed to find key 'EnemyTargetLocation' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:057][701]LogBehaviorTree: Warning: Rotate to face BB entry[28]> Failed to find key 'EnemyTargetLocation' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.44:057][701]LogBehaviorTree: Warning: Move To[29]> Failed to find key 'EnemyTargetLocation' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:144][490]LogBehaviorTree: Warning: Is Enemy Idle[1]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:144][490]LogBehaviorTree: Warning: Is Enemy Patrolling[3]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:144][490]LogBehaviorTree: Warning: Is Enemy Suspicious[5]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:144][490]LogBehaviorTree: Warning: Is Enemy Searching[7]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:144][490]LogBehaviorTree: Warning: Is Enemy Hostile[9]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:145][490]LogBehaviorTree: Warning: Blackboard Based Condition[11]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:145][490]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:145][490]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'EnemyTargetLocation' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:145][490]LogBehaviorTree: Warning: Blackboard Based Condition[23]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:145][490]LogBehaviorTree: Warning: IsInAttackRange[16]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:145][490]LogBehaviorTree: Warning: BTService_AIFundamentalsFaceTarget[18]> Failed to find key 'EnemyTarget' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:145][490]LogBehaviorTree: Warning: BTTask_Attack[20]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:145][490]LogBehaviorTree: Warning: Blackboard Based Condition[14]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:145][490]LogBehaviorTree: Warning: BTTask_MoveToAttack[22]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:145][490]LogBehaviorTree: Warning: IsInAttackRange[21]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:145][490]LogBehaviorTree: Warning: BTTask_GetRandomDestination[27]> Failed to find key 'EnemyTargetLocation' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:145][490]LogBehaviorTree: Warning: Rotate to face BB entry[28]> Failed to find key 'EnemyTargetLocation' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:145][490]LogBehaviorTree: Warning: Move To[29]> Failed to find key 'EnemyTargetLocation' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.53.51:161][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_01/BT_AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/BT_AI_01.uasset" SILENT=true
+[2021.03.01-15.53.51:178][490]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/BT_AI_018CAB0F3C4F530C236818FABA7A640180.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/BT_AI_01.uasset'
+[2021.03.01-15.53.51:188][490]AssetCheck: New page: Asset Save: BT_AI_01
+[2021.03.01-15.53.51:188][490]LogContentValidation: Display: Validating BehaviorTree /Game/AI/AI_01/BT_AI_01.BT_AI_01
+[2021.03.01-15.53.59:583][380]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/AI/AI_Fundamentals/AI_FundamentalBlackBoard.AI_FundamentalBlackBoard
+[2021.03.01-15.54.09:332][521]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.01-15.54.42:895][507]LogBehaviorTree: Warning: Is Enemy Idle[1]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.42:895][507]LogBehaviorTree: Warning: Is Enemy Patrolling[3]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.42:895][507]LogBehaviorTree: Warning: Is Enemy Suspicious[5]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.42:895][507]LogBehaviorTree: Warning: Is Enemy Searching[7]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.42:896][507]LogBehaviorTree: Warning: Is Enemy Hostile[9]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.42:896][507]LogBehaviorTree: Warning: Blackboard Based Condition[11]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.42:896][507]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.42:896][507]LogBehaviorTree: Warning: Blackboard Based Condition[23]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.42:896][507]LogBehaviorTree: Warning: IsInAttackRange[16]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.42:896][507]LogBehaviorTree: Warning: BTTask_Attack[20]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.42:896][507]LogBehaviorTree: Warning: Blackboard Based Condition[14]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.42:896][507]LogBehaviorTree: Warning: BTTask_MoveToAttack[22]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.42:896][507]LogBehaviorTree: Warning: IsInAttackRange[21]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.43:534][572]LogBehaviorTree: Warning: Is Enemy Idle[1]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.43:534][572]LogBehaviorTree: Warning: Is Enemy Patrolling[3]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.43:534][572]LogBehaviorTree: Warning: Is Enemy Suspicious[5]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.43:534][572]LogBehaviorTree: Warning: Is Enemy Searching[7]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.43:534][572]LogBehaviorTree: Warning: Is Enemy Hostile[9]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.43:534][572]LogBehaviorTree: Warning: Blackboard Based Condition[11]> Failed to find key 'EEnemyAIState' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.43:534][572]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.43:535][572]LogBehaviorTree: Warning: Blackboard Based Condition[23]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.43:535][572]LogBehaviorTree: Warning: IsInAttackRange[16]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.43:535][572]LogBehaviorTree: Warning: BTTask_Attack[20]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.43:535][572]LogBehaviorTree: Warning: Blackboard Based Condition[14]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.43:535][572]LogBehaviorTree: Warning: BTTask_MoveToAttack[22]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.54.43:535][572]LogBehaviorTree: Warning: IsInAttackRange[21]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.05:223][101]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.05:223][101]LogBehaviorTree: Warning: Blackboard Based Condition[23]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.05:223][101]LogBehaviorTree: Warning: IsInAttackRange[16]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.05:223][101]LogBehaviorTree: Warning: BTTask_Attack[20]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.05:223][101]LogBehaviorTree: Warning: Blackboard Based Condition[14]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.05:223][101]LogBehaviorTree: Warning: BTTask_MoveToAttack[22]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.05:223][101]LogBehaviorTree: Warning: IsInAttackRange[21]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.09:134][553]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_FundamentalBlackBoard40A6E6064F6C5B6C806D70913224AC57.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_Fundamentals/AI_FundamentalBlackBoard.uasset'
+[2021.03.01-15.55.09:149][553]AssetCheck: New page: Asset Save: AI_FundamentalBlackBoard
+[2021.03.01-15.55.09:149][553]LogContentValidation: Display: Validating BlackboardData /Game/AI/AI_Fundamentals/AI_FundamentalBlackBoard.AI_FundamentalBlackBoard
+[2021.03.01-15.55.27:353][651]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.27:354][651]LogBehaviorTree: Warning: Blackboard Based Condition[23]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.27:354][651]LogBehaviorTree: Warning: IsInAttackRange[16]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.27:354][651]LogBehaviorTree: Warning: BTTask_Attack[20]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.27:354][651]LogBehaviorTree: Warning: Blackboard Based Condition[14]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.27:354][651]LogBehaviorTree: Warning: BTTask_MoveToAttack[22]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.27:354][651]LogBehaviorTree: Warning: IsInAttackRange[21]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.27:374][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_01/BT_AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/BT_AI_01.uasset" SILENT=true
+[2021.03.01-15.55.27:390][651]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/BT_AI_01AF23896A43D9E77AE8E2F99CBCC0CA4B.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/BT_AI_01.uasset'
+[2021.03.01-15.55.27:401][651]AssetCheck: New page: Asset Save: BT_AI_01
+[2021.03.01-15.55.27:401][651]LogContentValidation: Display: Validating BehaviorTree /Game/AI/AI_01/BT_AI_01.BT_AI_01
+[2021.03.01-15.55.29:222][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.03.01-15.55.29:240][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_01/BB_AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/BB_AI_01.uasset" SILENT=true
+[2021.03.01-15.55.29:261][865]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/BB_AI_012254842A4022AFC8FC9535A50647DAF2.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/BB_AI_01.uasset'
+[2021.03.01-15.55.29:264][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_01/EnemyAIController_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAIController_01.uasset" SILENT=true
+[2021.03.01-15.55.29:277][865]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/EnemyAIController_01BE3A0C6C48BAC0D186A87A8971CCA2F2.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAIController_01.uasset'
+[2021.03.01-15.55.29:291][865]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.01-15.55.29:291][865]LogContentValidation: Display: Validating BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01
+[2021.03.01-15.55.29:291][865]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_01/EnemyAIController_01.EnemyAIController_01
+[2021.03.01-15.55.31:654][141]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.31:655][141]LogBehaviorTree: Warning: Blackboard Based Condition[23]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.31:655][141]LogBehaviorTree: Warning: IsInAttackRange[16]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.31:655][141]LogBehaviorTree: Warning: BTTask_Attack[20]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.31:655][141]LogBehaviorTree: Warning: Blackboard Based Condition[14]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.31:655][141]LogBehaviorTree: Warning: BTTask_MoveToAttack[22]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.55.31:655][141]LogBehaviorTree: Warning: IsInAttackRange[21]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.37:246][778]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.37:246][778]LogBehaviorTree: Warning: BTTask_Attack[20]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.37:246][778]LogBehaviorTree: Warning: BTTask_MoveToAttack[22]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.37:264][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_01/BT_AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/BT_AI_01.uasset" SILENT=true
+[2021.03.01-15.56.37:280][778]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/BT_AI_01D3E637CF40F9A0EDB75B39A0257FA4A5.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/BT_AI_01.uasset'
+[2021.03.01-15.56.37:293][778]AssetCheck: New page: Asset Save: BT_AI_01
+[2021.03.01-15.56.37:293][778]LogContentValidation: Display: Validating BehaviorTree /Game/AI/AI_01/BT_AI_01.BT_AI_01
+[2021.03.01-15.56.40:381][127]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.01-15.56.40:400][127]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.03.01-15.56.40:401][127]LogPlayLevel: [PlayLevel] Compiling EnemyAIController_01 before play...
+[2021.03.01-15.56.40:447][127]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.03.01-15.56.40:448][127]LogPlayLevel: PlayLevel: Blueprint regeneration took 48 ms (1 blueprints)
+[2021.03.01-15.56.40:448][127]PIE: New page: PIE session: AI_01 (1 Mar 2021, 15:56:40)
+[2021.03.01-15.56.40:488][127]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-15.56.40:500][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011258s)
+[2021.03.01-15.56.40:500][127]LogAIModule: Creating AISystem for world AI_01
+[2021.03.01-15.56.40:501][127]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000201A312A800), frame # 43127
+[2021.03.01-15.56.40:501][127]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020239FD9580), frame # 43127
+[2021.03.01-15.56.40:501][127]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2021.03.01-15.56.40:501][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AI_01.AI_01 to /Game/Maps/UEDPIE_0_AI_01.AI_01 (0.012993s)
+[2021.03.01-15.56.40:525][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.03.01-15.56.40:526][127]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.01-15.56.40:526][127]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.01-15.56.40:526][127]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.01-15.56.40:526][127]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.01-15.56.40:526][127]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.01-15.56.40:526][127]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.01-15.56.40:526][127]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.01-15.56.40:526][127]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.01-15.56.40:527][127]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.01-15.56.40:527][127]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.01-15.56.40:530][127]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.01-15.56.40:530][127]LogAudioMixer: Display: 1: FrontRight
+[2021.03.01-15.56.40:560][127]LogAudioMixer: Display: Using Audio Device BenQ GL2580 (NVIDIA High Definition Audio)
+[2021.03.01-15.56.40:560][127]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.01-15.56.40:560][127]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.01-15.56.40:560][127]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.01-15.56.40:560][127]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.01-15.56.40:572][127]LogInit: FAudioDevice initialized.
+[2021.03.01-15.56.40:584][127]LogLoad: Game class is 'UnrealAIGameMode'
+[2021.03.01-15.56.40:586][127]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AI_01.AI_01 up for play (max tick rate 0) at 2021.03.01-15.56.40
+[2021.03.01-15.56.40:586][127]LogWorld: Bringing up level for play took: 0.001956
+[2021.03.01-15.56.40:587][127]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.03.01-15.56.40:590][127]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.40:591][127]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.40:591][127]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.40:591][127]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.40:591][127]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.40:591][127]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.40:592][127]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-15.56.40:592][127]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-15.56.40:592][127]PIE: Server logged in
+[2021.03.01-15.56.40:593][127]PIE: Play in editor total start time 0.196 seconds.
+[2021.03.01-15.56.45:442][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.56.45:443][513]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-15.56.45:444][513]LogWorld: UWorld::CleanupWorld for AI_01, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-15.56.45:444][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.56.45:472][513]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.01-15.56.45:476][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.56.45:504][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.56.45:543][513]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020239FD9580), frame # 43513
+[2021.03.01-15.56.45:544][513]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000201A312A800), frame # 43513
+[2021.03.01-15.56.45:546][513]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.03.01-15.56.45:612][514]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.03.01-15.56.50:187][990]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.50:187][990]LogBehaviorTree: Warning: BTTask_Attack[20]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.50:187][990]LogBehaviorTree: Warning: BTTask_MoveToAttack[22]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.55:585][623]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.55:585][623]LogBehaviorTree: Warning: BTTask_Attack[20]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.56.55:585][623]LogBehaviorTree: Warning: BTTask_MoveToAttack[22]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.57.02:400][415]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.57.02:401][415]LogBehaviorTree: Warning: BTTask_Attack[20]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.57.02:401][415]LogBehaviorTree: Warning: BTTask_MoveToAttack[22]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.57.05:458][691]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/AI_Fundamentals/AICharacter0.AICharacter0
+[2021.03.01-15.57.06:809][789]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-15.57.06:809][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.57.07:890][892]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI/AI_Fundamentals/AIFundamentalBehaviourTree.AIFundamentalBehaviourTree
+[2021.03.01-15.57.38:533][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.01-15.57.38:560][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2021.03.01-15.57.38:614][469]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01B52FE0F146EDB58FFDA4998E5CA9D4F9.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap'
+[2021.03.01-15.57.38:645][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01_BuiltData" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset" SILENT=true
+[2021.03.01-15.57.38:711][469]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01_BuiltData6F1C56B74849B65919D1A28D542A7F56.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset'
+[2021.03.01-15.57.38:724][469]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.01-15.57.38:724][469]LogContentValidation: Display: Validating World /Game/Maps/AI_01.AI_01
+[2021.03.01-15.57.38:725][469]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/AI_01_BuiltData.AI_01_BuiltData
+[2021.03.01-15.57.39:815][596]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.01-15.57.39:833][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.01-15.57.39:833][596]PIE: New page: PIE session: AI_01 (1 Mar 2021, 15:57:39)
+[2021.03.01-15.57.39:859][596]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-15.57.39:870][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010621s)
+[2021.03.01-15.57.39:871][596]LogAIModule: Creating AISystem for world AI_01
+[2021.03.01-15.57.39:871][596]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020241E6EA00), frame # 49596
+[2021.03.01-15.57.39:871][596]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020235A2B740), frame # 49596
+[2021.03.01-15.57.39:871][596]LogPlayLevel: PIE: World Init took: (0.001421s)
+[2021.03.01-15.57.39:871][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AI_01.AI_01 to /Game/Maps/UEDPIE_0_AI_01.AI_01 (0.012423s)
+[2021.03.01-15.57.39:896][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.03.01-15.57.39:897][596]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.01-15.57.39:897][596]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.01-15.57.39:897][596]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.01-15.57.39:898][596]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.01-15.57.39:898][596]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.01-15.57.39:898][596]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.01-15.57.39:898][596]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.01-15.57.39:898][596]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.01-15.57.39:898][596]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.01-15.57.39:898][596]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.01-15.57.39:902][596]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.01-15.57.39:902][596]LogAudioMixer: Display: 1: FrontRight
+[2021.03.01-15.57.39:928][596]LogAudioMixer: Display: Using Audio Device BenQ GL2580 (NVIDIA High Definition Audio)
+[2021.03.01-15.57.39:928][596]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.01-15.57.39:928][596]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.01-15.57.39:929][596]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.01-15.57.39:929][596]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.01-15.57.39:941][596]LogInit: FAudioDevice initialized.
+[2021.03.01-15.57.39:952][596]LogLoad: Game class is 'UnrealAIGameMode'
+[2021.03.01-15.57.39:954][596]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AI_01.AI_01 up for play (max tick rate 0) at 2021.03.01-15.57.39
+[2021.03.01-15.57.39:955][596]LogWorld: Bringing up level for play took: 0.001808
+[2021.03.01-15.57.39:955][596]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.03.01-15.57.39:958][596]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.57.39:959][596]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.57.39:959][596]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.57.39:959][596]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.57.39:959][596]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.57.39:959][596]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.57.39:961][596]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-15.57.39:961][596]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-15.57.39:961][596]PIE: Server logged in
+[2021.03.01-15.57.39:962][596]PIE: Play in editor total start time 0.132 seconds.
+[2021.03.01-15.57.47:808][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.57.47:809][178]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-15.57.47:809][178]LogWorld: UWorld::CleanupWorld for AI_01, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-15.57.47:810][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.57.47:825][178]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.01-15.57.47:831][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.57.47:895][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.57.47:897][178]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020235A2B740), frame # 50178
+[2021.03.01-15.57.47:897][178]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020241E6EA00), frame # 50178
+[2021.03.01-15.57.47:901][178]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.03.01-15.57.47:952][179]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.03.01-15.57.51:096][469]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.57.51:096][469]LogBehaviorTree: Warning: BTTask_Attack[20]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.57.51:096][469]LogBehaviorTree: Warning: BTTask_MoveToAttack[22]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.57.58:670][299]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.03.01-15.58.04:386][857]BlueprintLog: New page: Compile EnemyAI_01
+[2021.03.01-15.58.04:468][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.03.01-15.58.04:550][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_01/EnemyAI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAI_01.uasset" SILENT=true
+[2021.03.01-15.58.04:619][857]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/EnemyAI_01ABC1E49A494DD4F26582DFADF6B63703.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAI_01.uasset'
+[2021.03.01-15.58.04:630][857]AssetCheck: New page: Asset Save: EnemyAI_01
+[2021.03.01-15.58.04:630][857]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_01/EnemyAI_01.EnemyAI_01
+[2021.03.01-15.58.05:896][959]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.01-15.58.05:916][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.01-15.58.05:916][959]PIE: New page: PIE session: AI_01 (1 Mar 2021, 15:58:05)
+[2021.03.01-15.58.05:949][959]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-15.58.05:960][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010857s)
+[2021.03.01-15.58.05:961][959]LogAIModule: Creating AISystem for world AI_01
+[2021.03.01-15.58.05:961][959]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002021EE0BA00), frame # 51959
+[2021.03.01-15.58.05:962][959]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002021CA3CE00), frame # 51959
+[2021.03.01-15.58.05:962][959]LogPlayLevel: PIE: World Init took: (0.001482s)
+[2021.03.01-15.58.05:962][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AI_01.AI_01 to /Game/Maps/UEDPIE_0_AI_01.AI_01 (0.012815s)
+[2021.03.01-15.58.05:988][959]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.03.01-15.58.05:989][959]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.01-15.58.05:989][959]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.01-15.58.05:989][959]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.01-15.58.05:989][959]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.01-15.58.05:989][959]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.01-15.58.05:989][959]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.01-15.58.05:989][959]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.01-15.58.05:989][959]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.01-15.58.05:990][959]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.01-15.58.05:990][959]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.01-15.58.05:993][959]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.01-15.58.05:993][959]LogAudioMixer: Display: 1: FrontRight
+[2021.03.01-15.58.06:019][959]LogAudioMixer: Display: Using Audio Device BenQ GL2580 (NVIDIA High Definition Audio)
+[2021.03.01-15.58.06:019][959]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.01-15.58.06:020][959]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.01-15.58.06:020][959]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.01-15.58.06:020][959]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.01-15.58.06:031][959]LogInit: FAudioDevice initialized.
+[2021.03.01-15.58.06:042][959]LogLoad: Game class is 'UnrealAIGameMode'
+[2021.03.01-15.58.06:044][959]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AI_01.AI_01 up for play (max tick rate 0) at 2021.03.01-15.58.06
+[2021.03.01-15.58.06:044][959]LogWorld: Bringing up level for play took: 0.001806
+[2021.03.01-15.58.06:045][959]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.03.01-15.58.06:048][959]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.58.06:048][959]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.58.06:049][959]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.58.06:049][959]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.58.06:049][959]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.58.06:049][959]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.58.06:050][959]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-15.58.06:050][959]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-15.58.06:051][959]PIE: Server logged in
+[2021.03.01-15.58.06:051][959]PIE: Play in editor total start time 0.14 seconds.
+[2021.03.01-15.58.07:934][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.58.07:934][ 67]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-15.58.07:935][ 67]LogWorld: UWorld::CleanupWorld for AI_01, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-15.58.07:935][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.58.07:968][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.01-15.58.07:972][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.58.08:037][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.58.08:038][ 67]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002021CA3CE00), frame # 52067
+[2021.03.01-15.58.08:038][ 67]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002021EE0BA00), frame # 52067
+[2021.03.01-15.58.08:044][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2021.03.01-15.58.08:176][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.03.01-15.58.09:158][110]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.03.01-15.58.09:177][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.01-15.58.09:204][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2021.03.01-15.58.09:251][110]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_011F4B35164472506C2079EC8B4BD97B80.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap'
+[2021.03.01-15.58.09:295][110]LogFileHelpers: Saving map 'AI_01' took 0.118
+[2021.03.01-15.58.09:295][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01_BuiltData" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset" SILENT=true
+[2021.03.01-15.58.09:380][110]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01_BuiltData44E35CDB4D11031628A04E8962306452.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset'
+[2021.03.01-15.58.09:422][110]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.01-15.58.09:422][110]LogContentValidation: Display: Validating World /Game/Maps/AI_01.AI_01
+[2021.03.01-15.58.09:423][110]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/AI_01_BuiltData.AI_01_BuiltData
+[2021.03.01-15.58.10:709][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.03.01-15.58.10:709][169]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-15.58.10:709][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.58.11:650][224]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.03.01-15.58.11:650][224]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-15.58.11:650][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.58.13:092][359]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.58.13:092][359]LogBehaviorTree: Warning: BTTask_Attack[20]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.58.13:093][359]LogBehaviorTree: Warning: BTTask_MoveToAttack[22]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.58.20:499][233]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/AI_Fundamentals/Tasks/BTTask_MoveToAttack.BTTask_MoveToAttack
+[2021.03.01-15.58.35:310][909]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-15.58.35:310][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.58.36:842][ 79]LogBehaviorTree: Warning: AI_FunamentalsAIFindTarget[13]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.58.36:843][ 79]LogBehaviorTree: Warning: BTTask_Attack[20]> Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.58.36:865][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_01/BT_AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/BT_AI_01.uasset" SILENT=true
+[2021.03.01-15.58.36:879][ 79]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/BT_AI_01D688ADAD41C08F923E73338CC3EC12DD.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/BT_AI_01.uasset'
+[2021.03.01-15.58.36:891][ 79]AssetCheck: New page: Asset Save: BT_AI_01
+[2021.03.01-15.58.36:891][ 79]LogContentValidation: Display: Validating BehaviorTree /Game/AI/AI_01/BT_AI_01.BT_AI_01
+[2021.03.01-15.58.38:157][231]LogEditorViewport: Clicking on Actor (LMB): EnemyAI_01_C (EnemyAI_01)
+[2021.03.01-15.58.49:554][421]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.03.01-15.58.54:514][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.01-15.58.54:540][991]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.03.01-15.58.54:595][991]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01F6A9A1654449F268E20C86B6B9074CEF.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap'
+[2021.03.01-15.58.54:623][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01_BuiltData" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset" SILENT=true
+[2021.03.01-15.58.54:685][991]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01_BuiltDataD27A9E574827E0062E5E27969B292C94.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset'
+[2021.03.01-15.58.54:701][991]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.01-15.58.54:701][991]LogContentValidation: Display: Validating World /Game/Maps/AI_01.AI_01
+[2021.03.01-15.58.54:701][991]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/AI_01_BuiltData.AI_01_BuiltData
+[2021.03.01-15.58.55:005][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.01-15.58.56:582][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.01-15.58.56:602][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2021.03.01-15.58.56:639][178]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_0180D1E6DC4B70BD1E5202EE9276E63F91.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap'
+[2021.03.01-15.58.56:666][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01_BuiltData" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset" SILENT=true
+[2021.03.01-15.58.56:729][178]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01_BuiltData2EF55E2D4B0383E6A1E49989A2120A70.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset'
+[2021.03.01-15.58.56:745][178]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.01-15.58.56:745][178]LogContentValidation: Display: Validating World /Game/Maps/AI_01.AI_01
+[2021.03.01-15.58.56:745][178]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/AI_01_BuiltData.AI_01_BuiltData
+[2021.03.01-15.58.58:920][395]LogEditorViewport: Clicking on Actor (LMB): EnemyAI_01_C (EnemyAI_01)
+[2021.03.01-15.59.00:935][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.01-15.59.00:955][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.03.01-15.59.00:991][617]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_019D7DECE14412191B373D489650512CF2.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap'
+[2021.03.01-15.59.01:020][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01_BuiltData" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset" SILENT=true
+[2021.03.01-15.59.01:081][617]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01_BuiltData373903814EB198E7126C1AB944F94E75.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset'
+[2021.03.01-15.59.01:096][617]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.01-15.59.01:096][617]LogContentValidation: Display: Validating World /Game/Maps/AI_01.AI_01
+[2021.03.01-15.59.01:096][617]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/AI_01_BuiltData.AI_01_BuiltData
+[2021.03.01-15.59.04:379][957]LogEditorViewport: Clicking on Actor (LMB): EnemyAI_01_C (EnemyAI_01)
+[2021.03.01-15.59.05:289][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.01-15.59.05:308][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.03.01-15.59.05:344][ 61]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_0134ADEE9B438A567284C596A6EBBAE90F.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap'
+[2021.03.01-15.59.05:373][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01_BuiltData" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset" SILENT=true
+[2021.03.01-15.59.05:434][ 61]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01_BuiltDataB9EB9E354CF0CB5E68C9779001A40A48.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset'
+[2021.03.01-15.59.05:448][ 61]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.01-15.59.05:449][ 61]LogContentValidation: Display: Validating World /Game/Maps/AI_01.AI_01
+[2021.03.01-15.59.05:449][ 61]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/AI_01_BuiltData.AI_01_BuiltData
+[2021.03.01-15.59.24:701][319]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2021.03.01-15.59.25:540][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.01-15.59.25:560][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.03.01-15.59.25:599][412]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01EF9FB33F48D1CB9A4CBCB3A021630B11.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap'
+[2021.03.01-15.59.25:631][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01_BuiltData" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset" SILENT=true
+[2021.03.01-15.59.25:694][412]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01_BuiltDataCA9186234DE0328F3CCE109880243BA3.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset'
+[2021.03.01-15.59.25:707][412]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.01-15.59.25:707][412]LogContentValidation: Display: Validating World /Game/Maps/AI_01.AI_01
+[2021.03.01-15.59.25:707][412]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/AI_01_BuiltData.AI_01_BuiltData
+[2021.03.01-15.59.26:287][462]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.03.01-15.59.28:975][784]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.03.01-15.59.30:326][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.01-15.59.30:346][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.03.01-15.59.30:383][942]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01029D16B14E4C10F74A13459345968D6D.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap'
+[2021.03.01-15.59.30:416][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01_BuiltData" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset" SILENT=true
+[2021.03.01-15.59.30:479][942]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01_BuiltData70E670DA4AFF1F630D71828CF943D260.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset'
+[2021.03.01-15.59.30:493][942]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.01-15.59.30:493][942]LogContentValidation: Display: Validating World /Game/Maps/AI_01.AI_01
+[2021.03.01-15.59.30:493][942]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/AI_01_BuiltData.AI_01_BuiltData
+[2021.03.01-15.59.30:888][965]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.01-15.59.30:909][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.01-15.59.30:909][965]PIE: New page: PIE session: AI_01 (1 Mar 2021, 15:59:30)
+[2021.03.01-15.59.30:910][965]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-15.59.30:920][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010484s)
+[2021.03.01-15.59.30:921][965]LogAIModule: Creating AISystem for world AI_01
+[2021.03.01-15.59.30:921][965]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020210864200), frame # 60965
+[2021.03.01-15.59.30:921][965]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002020A2F3100), frame # 60965
+[2021.03.01-15.59.30:922][965]LogPlayLevel: PIE: World Init took: (0.001322s)
+[2021.03.01-15.59.30:922][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AI_01.AI_01 to /Game/Maps/UEDPIE_0_AI_01.AI_01 (0.012243s)
+[2021.03.01-15.59.30:944][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.03.01-15.59.30:945][965]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.01-15.59.30:945][965]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.01-15.59.30:945][965]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.01-15.59.30:945][965]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.01-15.59.30:945][965]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.01-15.59.30:945][965]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.01-15.59.30:945][965]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.01-15.59.30:945][965]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.01-15.59.30:946][965]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.01-15.59.30:946][965]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.01-15.59.30:949][965]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.01-15.59.30:949][965]LogAudioMixer: Display: 1: FrontRight
+[2021.03.01-15.59.30:979][965]LogAudioMixer: Display: Using Audio Device BenQ GL2580 (NVIDIA High Definition Audio)
+[2021.03.01-15.59.30:980][965]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.01-15.59.30:980][965]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.01-15.59.30:980][965]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.01-15.59.30:980][965]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.01-15.59.30:992][965]LogInit: FAudioDevice initialized.
+[2021.03.01-15.59.31:002][965]LogLoad: Game class is 'UnrealAIGameMode'
+[2021.03.01-15.59.31:005][965]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AI_01.AI_01 up for play (max tick rate 0) at 2021.03.01-15.59.31
+[2021.03.01-15.59.31:005][965]LogWorld: Bringing up level for play took: 0.001946
+[2021.03.01-15.59.31:005][965]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.03.01-15.59.31:009][965]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.59.31:009][965]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.59.31:010][965]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.59.31:010][965]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-15.59.31:011][965]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-15.59.31:011][965]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-15.59.31:011][965]PIE: Server logged in
+[2021.03.01-15.59.31:012][965]PIE: Play in editor total start time 0.108 seconds.
+[2021.03.01-15.59.39:765][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.59.39:766][576]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-15.59.39:767][576]LogWorld: UWorld::CleanupWorld for AI_01, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-15.59.39:768][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.59.39:785][576]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.01-15.59.39:789][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-15.59.39:815][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-15.59.39:855][576]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002020A2F3100), frame # 61576
+[2021.03.01-15.59.39:855][576]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020210864200), frame # 61576
+[2021.03.01-15.59.39:859][576]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2021.03.01-15.59.39:922][577]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.03.01-15.59.40:906][644]LogSlate: Window 'BT_AI_01' being destroyed
+[2021.03.01-16.14.25:780][449]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{14bd0bbd-0428-4aa1-97d2-0209fda0ee01}.
+[2021.03.01-16.14.25:780][449]LogTemp: Resetting audio stream to device id 
+[2021.03.01-16.14.25:884][449]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.01-16.14.25:884][449]LogAudioMixer: Display: 1: FrontRight
+[2021.03.01-16.36.00:386][804]LogEditorViewport: Clicking on Actor (LMB): EnemyAI_01_C (EnemyAI_01)
+[2021.03.01-16.36.01:042][865]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/AI_01/EnemyAI_01.EnemyAI_01
+[2021.03.01-16.36.08:712][ 11]LogSlate: Window 'EnemyAI_01' being destroyed
+[2021.03.01-16.36.13:098][211]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.01-16.36.13:114][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.01-16.36.13:115][211]PIE: New page: PIE session: AI_01 (1 Mar 2021, 16:36:13)
+[2021.03.01-16.36.13:115][211]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-16.36.13:127][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011952s)
+[2021.03.01-16.36.13:128][211]LogAIModule: Creating AISystem for world AI_01
+[2021.03.01-16.36.13:128][211]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002023B7B6600), frame # 69211
+[2021.03.01-16.36.13:128][211]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002020A1F6200), frame # 69211
+[2021.03.01-16.36.13:128][211]LogPlayLevel: PIE: World Init took: (0.001195s)
+[2021.03.01-16.36.13:128][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AI_01.AI_01 to /Game/Maps/UEDPIE_0_AI_01.AI_01 (0.013493s)
+[2021.03.01-16.36.13:154][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.03.01-16.36.13:167][211]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.01-16.36.13:167][211]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.01-16.36.13:167][211]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.01-16.36.13:167][211]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.01-16.36.13:167][211]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.01-16.36.13:167][211]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.01-16.36.13:167][211]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.01-16.36.13:168][211]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.01-16.36.13:168][211]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.01-16.36.13:168][211]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.01-16.36.13:171][211]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.01-16.36.13:171][211]LogAudioMixer: Display: 1: FrontRight
+[2021.03.01-16.36.13:254][211]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.01-16.36.13:254][211]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.01-16.36.13:254][211]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.01-16.36.13:254][211]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.01-16.36.13:254][211]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.01-16.36.13:266][211]LogInit: FAudioDevice initialized.
+[2021.03.01-16.36.13:277][211]LogLoad: Game class is 'UnrealAIGameMode'
+[2021.03.01-16.36.13:279][211]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AI_01.AI_01 up for play (max tick rate 0) at 2021.03.01-16.36.13
+[2021.03.01-16.36.13:280][211]LogWorld: Bringing up level for play took: 0.001899
+[2021.03.01-16.36.13:280][211]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.03.01-16.36.13:284][211]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-16.36.13:284][211]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-16.36.13:284][211]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-16.36.13:284][211]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-16.36.13:285][211]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-16.36.13:285][211]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-16.36.13:285][211]PIE: Server logged in
+[2021.03.01-16.36.13:286][211]PIE: Play in editor total start time 0.172 seconds.
+[2021.03.01-16.36.27:321][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.01-16.36.27:982][432]LogEditorViewport: Clicking on Actor (LMB): EnemyAI_01_C (EnemyAI_01)
+[2021.03.01-16.36.50:965][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-16.36.50:965][809]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-16.36.50:966][809]LogWorld: UWorld::CleanupWorld for AI_01, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-16.36.50:966][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-16.36.50:984][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.01-16.36.50:987][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-16.36.51:033][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-16.36.51:034][809]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002020A1F6200), frame # 72809
+[2021.03.01-16.36.51:034][809]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002023B7B6600), frame # 72809
+[2021.03.01-16.36.51:036][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.03.01-16.36.51:080][810]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.03.01-16.36.56:888][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.01-16.36.56:912][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2021.03.01-16.36.56:957][500]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_010156AD234F72895870F309AD8018265E.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap'
+[2021.03.01-16.36.56:989][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01_BuiltData" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset" SILENT=true
+[2021.03.01-16.36.57:055][500]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01_BuiltDataA995420C4088CFBCCA800FAA947E4390.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset'
+[2021.03.01-16.36.57:069][500]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.01-16.36.57:069][500]LogContentValidation: Display: Validating World /Game/Maps/AI_01.AI_01
+[2021.03.01-16.36.57:069][500]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/AI_01_BuiltData.AI_01_BuiltData
+[2021.03.01-16.36.57:610][561]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.01-16.36.57:627][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.01-16.36.57:627][561]PIE: New page: PIE session: AI_01 (1 Mar 2021, 16:36:57)
+[2021.03.01-16.36.57:627][561]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-16.36.57:638][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010352s)
+[2021.03.01-16.36.57:639][561]LogAIModule: Creating AISystem for world AI_01
+[2021.03.01-16.36.57:639][561]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020241CEA200), frame # 73561
+[2021.03.01-16.36.57:639][561]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002020E876E80), frame # 73561
+[2021.03.01-16.36.57:640][561]LogPlayLevel: PIE: World Init took: (0.001623s)
+[2021.03.01-16.36.57:640][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AI_01.AI_01 to /Game/Maps/UEDPIE_0_AI_01.AI_01 (0.012397s)
+[2021.03.01-16.36.57:663][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2021.03.01-16.36.57:665][561]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.01-16.36.57:665][561]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.01-16.36.57:665][561]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.01-16.36.57:665][561]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.01-16.36.57:665][561]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.01-16.36.57:665][561]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.01-16.36.57:665][561]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.01-16.36.57:665][561]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.01-16.36.57:665][561]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.01-16.36.57:665][561]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.01-16.36.57:668][561]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.01-16.36.57:668][561]LogAudioMixer: Display: 1: FrontRight
+[2021.03.01-16.36.57:748][561]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.01-16.36.57:748][561]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.01-16.36.57:748][561]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.01-16.36.57:748][561]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.01-16.36.57:749][561]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.01-16.36.57:760][561]LogInit: FAudioDevice initialized.
+[2021.03.01-16.36.57:767][561]LogLoad: Game class is 'UnrealAIGameMode'
+[2021.03.01-16.36.57:770][561]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AI_01.AI_01 up for play (max tick rate 0) at 2021.03.01-16.36.57
+[2021.03.01-16.36.57:770][561]LogWorld: Bringing up level for play took: 0.001875
+[2021.03.01-16.36.57:771][561]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.03.01-16.36.57:774][561]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-16.36.57:774][561]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-16.36.57:775][561]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-16.36.57:775][561]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-16.36.57:775][561]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-16.36.57:775][561]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-16.36.57:775][561]PIE: Server logged in
+[2021.03.01-16.36.57:776][561]PIE: Play in editor total start time 0.15 seconds.
+[2021.03.01-16.37.02:513][ 98]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.37.05:333][415]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.37.09:598][909]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.37.30:068][359]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.37.36:317][109]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.37.39:895][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-16.37.39:895][535]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-16.37.39:896][535]LogWorld: UWorld::CleanupWorld for AI_01, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-16.37.39:896][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-16.37.39:906][535]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.01-16.37.39:909][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-16.37.39:930][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-16.37.39:955][535]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002020E876E80), frame # 78535
+[2021.03.01-16.37.39:955][535]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020241CEA200), frame # 78535
+[2021.03.01-16.37.39:957][535]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.03.01-16.37.39:995][536]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.03.01-16.37.43:358][932]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.01-16.37.43:374][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.01-16.37.43:374][932]PIE: New page: PIE session: AI_01 (1 Mar 2021, 16:37:43)
+[2021.03.01-16.37.43:414][932]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-16.37.43:424][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010111s)
+[2021.03.01-16.37.43:425][932]LogAIModule: Creating AISystem for world AI_01
+[2021.03.01-16.37.43:425][932]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002020A1DDE00), frame # 78932
+[2021.03.01-16.37.43:425][932]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020200D0CCC0), frame # 78932
+[2021.03.01-16.37.43:426][932]LogPlayLevel: PIE: World Init took: (0.001393s)
+[2021.03.01-16.37.43:426][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AI_01.AI_01 to /Game/Maps/UEDPIE_0_AI_01.AI_01 (0.011887s)
+[2021.03.01-16.37.43:447][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.03.01-16.37.43:449][932]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.01-16.37.43:449][932]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.01-16.37.43:449][932]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.01-16.37.43:449][932]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.01-16.37.43:449][932]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.01-16.37.43:449][932]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.01-16.37.43:449][932]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.01-16.37.43:449][932]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.01-16.37.43:449][932]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.01-16.37.43:449][932]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.01-16.37.43:453][932]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.01-16.37.43:453][932]LogAudioMixer: Display: 1: FrontRight
+[2021.03.01-16.37.43:531][932]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.03.01-16.37.43:532][932]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.01-16.37.43:532][932]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.01-16.37.43:532][932]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.01-16.37.43:532][932]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.01-16.37.43:544][932]LogInit: FAudioDevice initialized.
+[2021.03.01-16.37.43:553][932]LogLoad: Game class is 'UnrealAIGameMode'
+[2021.03.01-16.37.43:555][932]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AI_01.AI_01 up for play (max tick rate 0) at 2021.03.01-16.37.43
+[2021.03.01-16.37.43:555][932]LogWorld: Bringing up level for play took: 0.001900
+[2021.03.01-16.37.43:556][932]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.03.01-16.37.43:559][932]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-16.37.43:559][932]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-16.37.43:560][932]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-16.37.43:560][932]LogBehaviorTree: Warning: > Failed to find key 'Enemy Target' in BB asset BlackboardData /Game/AI/AI_01/BB_AI_01.BB_AI_01. BB Key Selector will be set to 'Invalid'
+[2021.03.01-16.37.43:560][932]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-16.37.43:560][932]LogBlueprintUserMessages: [EnemyAI_01_3] EnemyAI_01_3
+[2021.03.01-16.37.43:561][932]PIE: Server logged in
+[2021.03.01-16.37.43:561][932]PIE: Play in editor total start time 0.188 seconds.
+[2021.03.01-16.38.06:156][588]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.38.12:890][396]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.38.23:940][722]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.38.24:981][847]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.38.25:865][953]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.38.26:759][ 60]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.38.32:215][715]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.38.36:779][259]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.38.38:255][436]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.38.48:747][695]LogAudioMixer: Warning: Sound wave Land_1 was flagged as being ambisonics but had a channel count of 1. Currently the audio engine only supports FOA sources that have four channels.
+[2021.03.01-16.38.49:995][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-16.38.49:995][841]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AI_01
+[2021.03.01-16.38.49:995][841]LogWorld: UWorld::CleanupWorld for AI_01, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-16.38.49:996][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-16.38.50:008][841]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.01-16.38.50:010][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-16.38.50:030][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.01-16.38.50:056][841]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020200D0CCC0), frame # 86841
+[2021.03.01-16.38.50:057][841]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002020A1DDE00), frame # 86841
+[2021.03.01-16.38.50:058][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.03.01-16.38.50:095][842]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.03.01-16.38.51:442][  0]Candidate modules for hot reload:
+[2021.03.01-16.38.51:443][  0]  UnrealAI
+[2021.03.01-16.38.51:443][  0]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=UnrealAI,1119 UnrealAIEditor Win64 Development -Project="C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/UnrealAI.uproject" "C:/Users/Morgan/Desktop/UnrealAI/UnrealAI/UnrealAI.uproject"  -IgnoreJunk]
+[2021.03.01-16.38.51:500][  0]Warning: Starting HotReload took  0.1s.
+[2021.03.01-16.38.53:223][149]CompilerResultsLog: New page: Compilation - 1 Mar 2021, 16:38:53
+[2021.03.01-16.38.53:223][149]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Morgan\Desktop\UnrealAI).
+[2021.03.01-16.38.53:223][149]CompilerResultsLog: Building UnrealAIEditor...
+[2021.03.01-16.38.53:223][149]CompilerResultsLog: Using Visual Studio 2019 14.28.29337 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.03.01-16.38.53:223][149]CompilerResultsLog: Building 3 actions with 20 processes...
+[2021.03.01-16.38.53:224][149]CompilerResultsLog:   [1/3] UE4Editor-UnrealAI-1119.lib
+[2021.03.01-16.38.53:224][149]CompilerResultsLog:      Creating library C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Intermediate\Build\Win64\UE4Editor\Development\UnrealAI\UE4Editor-UnrealAI-1119.lib and object C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Intermediate\Build\Win64\UE4Editor\Development\UnrealAI\UE4Editor-UnrealAI-1119.exp
+[2021.03.01-16.38.53:224][149]CompilerResultsLog:   [2/3] UE4Editor-UnrealAI-1119.dll
+[2021.03.01-16.38.53:224][149]CompilerResultsLog:      Creating library C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Intermediate\Build\Win64\UE4Editor\Development\UnrealAI\UE4Editor-UnrealAI-1119.suppressed.lib and object C:\Users\Morgan\Desktop\UnrealAI\UnrealAI\Intermediate\Build\Win64\UE4Editor\Development\UnrealAI\UE4Editor-UnrealAI-1119.suppressed.exp
+[2021.03.01-16.38.53:224][149]CompilerResultsLog:   [3/3] UnrealAIEditor.target
+[2021.03.01-16.38.53:224][149]CompilerResultsLog: Total time in Parallel executor: 1.00 seconds
+[2021.03.01-16.38.53:224][149]CompilerResultsLog: Total execution time: 1.63 seconds
+[2021.03.01-16.38.53:224][149]LogMainFrame: MainFrame: Module compiling took 1.785 seconds
+[2021.03.01-16.38.53:257][149]LogHotReload: Re-instancing AI_FundamentalController after hot-reload.
+[2021.03.01-16.38.53:299][149]LogContentBrowser: Native class hierarchy updated for 'UnrealAI' in 0.0004 seconds. Added 10 classes and 4 folders.
+[2021.03.01-16.38.53:302][149]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.03.01-16.38.53:399][149]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3440 classes and 833 folders.
+[2021.03.01-16.38.53:399][149]Display: HotReload took  2.0s.
+[2021.03.01-16.38.55:822][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_01/EnemyAI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAI_01.uasset" SILENT=true
+[2021.03.01-16.38.55:887][398]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/EnemyAI_018D6BE7724F96F3DBA5AC0AA9BC41EC2E.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/AI/AI_01/EnemyAI_01.uasset'
+[2021.03.01-16.38.55:898][398]AssetCheck: New page: Asset Save: EnemyAI_01
+[2021.03.01-16.38.55:898][398]LogContentValidation: Display: Validating Blueprint /Game/AI/AI_01/EnemyAI_01.EnemyAI_01
+[2021.03.01-16.38.56:479][451]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.03.01-16.38.56:479][451]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.01-16.38.58:680][691]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2021.03.01-16.38.59:425][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.01-16.38.59:464][777]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.03.01-16.38.59:499][777]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01DB216EBF4FE2F0A638EC51BAFF7E22D9.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01.umap'
+[2021.03.01-16.38.59:532][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AI_01_BuiltData" FILE="../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset" SILENT=true
+[2021.03.01-16.38.59:595][777]LogSavePackage: Moving '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Saved/AI_01_BuiltDataFE86E70B4AD154210315A4BDBE9A43CF.tmp' to '../../../../../../Users/Morgan/Desktop/UnrealAI/UnrealAI/Content/Maps/AI_01_BuiltData.uasset'
+[2021.03.01-16.38.59:607][777]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.01-16.38.59:607][777]LogContentValidation: Display: Validating World /Game/Maps/AI_01.AI_01
+[2021.03.01-16.38.59:607][777]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/AI_01_BuiltData.AI_01_BuiltData

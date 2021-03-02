@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeAI_FundamentalCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	AIMODULE_API UClass* Z_Construct_UClass_UBlackboardComponent_NoRegister();
 // End Cross Module References
 	static FName NAME_AAI_FundamentalCharacter_Sprint = FName(TEXT("Sprint"));
 	void AAI_FundamentalCharacter::Sprint()
@@ -167,6 +168,10 @@ void EmptyLinkFunctionForGeneratedCodeAI_FundamentalCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraBoom_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BlackboardComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BlackboardComponent;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -244,6 +249,15 @@ void EmptyLinkFunctionForGeneratedCodeAI_FundamentalCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAI_FundamentalCharacter_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAI_FundamentalCharacter, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAI_FundamentalCharacter_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAI_FundamentalCharacter_Statics::NewProp_CameraBoom_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAI_FundamentalCharacter_Statics::NewProp_BlackboardComponent_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "ArtificalIntelligence" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "UnrealAI Fundamentals/AI_FundamentalCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAI_FundamentalCharacter_Statics::NewProp_BlackboardComponent = { "BlackboardComponent", nullptr, (EPropertyFlags)0x004000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAI_FundamentalCharacter, BlackboardComponent), Z_Construct_UClass_UBlackboardComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAI_FundamentalCharacter_Statics::NewProp_BlackboardComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAI_FundamentalCharacter_Statics::NewProp_BlackboardComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAI_FundamentalCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAI_FundamentalCharacter_Statics::NewProp_SphereRadius,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAI_FundamentalCharacter_Statics::NewProp_BaseLookUpRate,
@@ -251,6 +265,7 @@ void EmptyLinkFunctionForGeneratedCodeAI_FundamentalCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAI_FundamentalCharacter_Statics::NewProp_CollisionSphere,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAI_FundamentalCharacter_Statics::NewProp_FollowCamera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAI_FundamentalCharacter_Statics::NewProp_CameraBoom,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAI_FundamentalCharacter_Statics::NewProp_BlackboardComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAI_FundamentalCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AAI_FundamentalCharacter>::IsAbstract,
@@ -279,7 +294,7 @@ void EmptyLinkFunctionForGeneratedCodeAI_FundamentalCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAI_FundamentalCharacter, 2856202365);
+	IMPLEMENT_CLASS(AAI_FundamentalCharacter, 4013602084);
 	template<> UNREALAI_API UClass* StaticClass<AAI_FundamentalCharacter>()
 	{
 		return AAI_FundamentalCharacter::StaticClass();

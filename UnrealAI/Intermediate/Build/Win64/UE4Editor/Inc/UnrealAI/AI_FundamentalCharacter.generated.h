@@ -61,6 +61,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAI_FundamentalCharacter); \
 
 
 #define UnrealAI_Source_UnrealAI_UnrealAI_Fundamentals_AI_FundamentalCharacter_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__BlackboardComponent() { return STRUCT_OFFSET(AAI_FundamentalCharacter, BlackboardComponent); } \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AAI_FundamentalCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AAI_FundamentalCharacter, FollowCamera); } \
 	FORCEINLINE static uint32 __PPO__CollisionSphere() { return STRUCT_OFFSET(AAI_FundamentalCharacter, CollisionSphere); }

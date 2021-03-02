@@ -12,6 +12,9 @@ class UNREALAI_API AAI_FundamentalCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ArtificalIntelligence", meta = (AllowPrivateAccess = "true"))
+	class UBlackboardComponent* BlackboardComponent;
+
 	/** Camera boom positioning the camera behind the character */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
