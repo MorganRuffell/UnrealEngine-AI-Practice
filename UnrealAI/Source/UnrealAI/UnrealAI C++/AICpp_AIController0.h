@@ -3,6 +3,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "BehaviorTree/BehaviorTreeComponent.h"
+#include "BehaviorTree/BehaviorTree.h"
+#include "BehaviorTree/BlackboardComponent.h"
 #include "AIController.h"
 #include "AICpp_AIController0.generated.h"
 
@@ -14,13 +17,13 @@ class UNREALAI_API AAICpp_AIController0 : public AAIController
 {
 	GENERATED_BODY()
 
-	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "Artifical Intelligence", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "Artifical Intelligence")
 	class UBehaviorTreeComponent* BehaviourTree_Component;
 
-	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "Artifical Intelligence", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "Artifical Intelligence")
 	class UBehaviorTree* Behaviour_tree;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Artifical Intelligence", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Artifical Intelligence")
 	class UBlackboardComponent* blackboardComponent;
 
 public:

@@ -44,7 +44,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = QueryCollision)
 	float SphereRadius;
-
+ 
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void Walk();

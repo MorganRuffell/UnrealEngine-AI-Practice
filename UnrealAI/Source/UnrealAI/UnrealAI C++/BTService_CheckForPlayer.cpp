@@ -1,5 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#include "BTService_CheckForPlayer.h"
 #include "BehaviorTree/Blackboard/BlackboardKeyAllTypes.h"
 #include "BehaviorTree/BehaviorTreeComponent.h"
 #include "BehaviorTree/BehaviorTree.h"
@@ -7,7 +8,6 @@
 #include "AICpp_NPC0.h"
 #include "AICpp_AIController0.h"
 #include "UnrealAI/UnrealAICharacter.h"
-#include "BTService_CheckForPlayer.h"
 
 UBTService_CheckForPlayer::UBTService_CheckForPlayer()
 {

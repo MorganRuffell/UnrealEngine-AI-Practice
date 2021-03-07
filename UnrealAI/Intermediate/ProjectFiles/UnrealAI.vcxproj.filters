@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UnrealAI.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C75C6DD2-EF6A-468A-944F-997712374612}</UniqueIdentifier>
+      <UniqueIdentifier>{DA625BB4-F909-4813-A927-AD6E79B00DDD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UnrealAI.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{9FB2473C-BCE2-4A05-97F6-6F8784675643}</UniqueIdentifier>
+      <UniqueIdentifier>{39742F9C-4167-4A86-B206-72236F46B705}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UnrealAI">
-      <UniqueIdentifier>{EAF9B58F-CAD3-4599-9BC7-139AE4090C68}</UniqueIdentifier>
+      <UniqueIdentifier>{D71D667E-BF62-4279-88D0-CF5FC4EDEB52}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealAI\CharacterMovementModes.cpp">
       <Filter>Source\UnrealAI</Filter>
@@ -60,7 +60,7 @@
       <Filter>Source\UnrealAI</Filter>
     </ClInclude>
     <Filter Include="Source\UnrealAI\UnrealAI C++">
-      <UniqueIdentifier>{63C45E11-DB52-48AC-8DD0-83290C76081D}</UniqueIdentifier>
+      <UniqueIdentifier>{5EAB5FAA-6D63-42FD-87DE-79BE101601B3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealAI\UnrealAI C++\AICpp_AIController0.cpp">
       <Filter>Source\UnrealAI\UnrealAI C++</Filter>
@@ -96,7 +96,7 @@
       <Filter>Source\UnrealAI\UnrealAI C++</Filter>
     </ClInclude>
     <Filter Include="Source\UnrealAI\UnrealAI Fundamentals">
-      <UniqueIdentifier>{C994BD4F-9B6F-4C5A-A6E5-70E3D9D3934C}</UniqueIdentifier>
+      <UniqueIdentifier>{B9B5C09D-479C-4DD7-8779-04404E0A4281}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\UnrealAI\UnrealAI Fundamentals\AI_FundamentalCharacter.cpp">
       <Filter>Source\UnrealAI\UnrealAI Fundamentals</Filter>
