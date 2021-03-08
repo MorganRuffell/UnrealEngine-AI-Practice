@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UNREALAI_AICpp_AIController0_generated_h
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_SPARSE_DATA
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_RPC_WRAPPERS
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_INCLASS_NO_PURE_DECLS \
+#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_SPARSE_DATA
+#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_RPC_WRAPPERS
+#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAICpp_AIController0(); \
 	friend struct Z_Construct_UClass_AAICpp_AIController0_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AAICpp_AIController0)
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_INCLASS \
+#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAAICpp_AIController0(); \
 	friend struct Z_Construct_UClass_AAICpp_AIController0_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AAICpp_AIController0)
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_STANDARD_CONSTRUCTORS \
+#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAICpp_AIController0(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAICpp_AIController0) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_ENHANCED_CONSTRUCTORS \
+#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAICpp_AIController0(AAICpp_AIController0&&); \
@@ -58,33 +58,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAICpp_AIController0); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAICpp_AIController0)
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__BehaviourTree_Component() { return STRUCT_OFFSET(AAICpp_AIController0, BehaviourTree_Component); } \
-	FORCEINLINE static uint32 __PPO__Behaviour_tree() { return STRUCT_OFFSET(AAICpp_AIController0, Behaviour_tree); } \
-	FORCEINLINE static uint32 __PPO__blackboardComponent() { return STRUCT_OFFSET(AAICpp_AIController0, blackboardComponent); }
-
-
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_12_PROLOG
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_GENERATED_BODY_LEGACY \
+#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_PRIVATE_PROPERTY_OFFSET
+#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_PROLOG
+#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_PRIVATE_PROPERTY_OFFSET \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_SPARSE_DATA \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_RPC_WRAPPERS \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_INCLASS \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_STANDARD_CONSTRUCTORS \
+	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_PRIVATE_PROPERTY_OFFSET \
+	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_SPARSE_DATA \
+	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_RPC_WRAPPERS \
+	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_INCLASS \
+	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_GENERATED_BODY \
+#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_PRIVATE_PROPERTY_OFFSET \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_SPARSE_DATA \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_INCLASS_NO_PURE_DECLS \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_15_ENHANCED_CONSTRUCTORS \
+	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_PRIVATE_PROPERTY_OFFSET \
+	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_SPARSE_DATA \
+	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_INCLASS_NO_PURE_DECLS \
+	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_AIController0_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -17,6 +17,9 @@ class UNREALAI_API AAICpp_AIController0 : public AAIController
 {
 	GENERATED_BODY()
 
+
+public:
+
 	UPROPERTY(EditInstanceOnly, BlueprintReadWrite, Category = "Artifical Intelligence")
 	class UBehaviorTreeComponent* BehaviourTree_Component;
 
@@ -26,7 +29,6 @@ class UNREALAI_API AAICpp_AIController0 : public AAIController
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Artifical Intelligence")
 	class UBlackboardComponent* blackboardComponent;
 
-public:
 	//In order to work with this we have to include this advanced constructor it passes FObjectIntializer by const&
 	AAICpp_AIController0(FObjectInitializer const& objectIntializer = FObjectInitializer::Get());
 	
