@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UNREALAI_AICpp_NPC0_generated_h
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_SPARSE_DATA
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_RPC_WRAPPERS
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_INCLASS_NO_PURE_DECLS \
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_SPARSE_DATA
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_RPC_WRAPPERS
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAICpp_NPC0(); \
 	friend struct Z_Construct_UClass_AAICpp_NPC0_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AAICpp_NPC0)
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_INCLASS \
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAAICpp_NPC0(); \
 	friend struct Z_Construct_UClass_AAICpp_NPC0_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AAICpp_NPC0)
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_STANDARD_CONSTRUCTORS \
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAICpp_NPC0(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAICpp_NPC0) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_ENHANCED_CONSTRUCTORS \
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAICpp_NPC0(AAICpp_NPC0&&); \
@@ -58,31 +58,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAICpp_NPC0); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAICpp_NPC0)
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_PRIVATE_PROPERTY_OFFSET \
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__EnemyCollisionSphere() { return STRUCT_OFFSET(AAICpp_NPC0, EnemyCollisionSphere); }
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_14_PROLOG
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_GENERATED_BODY_LEGACY \
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_14_PROLOG
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_PRIVATE_PROPERTY_OFFSET \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_SPARSE_DATA \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_RPC_WRAPPERS \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_INCLASS \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_STANDARD_CONSTRUCTORS \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_PRIVATE_PROPERTY_OFFSET \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_SPARSE_DATA \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_RPC_WRAPPERS \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_INCLASS \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_GENERATED_BODY \
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_PRIVATE_PROPERTY_OFFSET \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_SPARSE_DATA \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_INCLASS_NO_PURE_DECLS \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_ENHANCED_CONSTRUCTORS \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_PRIVATE_PROPERTY_OFFSET \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_SPARSE_DATA \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_INCLASS_NO_PURE_DECLS \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -90,7 +90,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> UNREALAI_API UClass* StaticClass<class AAICpp_NPC0>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h
+#define CURRENT_FILE_ID UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_NPC0_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

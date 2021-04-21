@@ -13,12 +13,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UNREALAI_AICpp_Character_generated_h
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_SPARSE_DATA
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_RPC_WRAPPERS
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_EVENT_PARMS
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_CALLBACK_WRAPPERS
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_INCLASS_NO_PURE_DECLS \
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_SPARSE_DATA
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_RPC_WRAPPERS
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_EVENT_PARMS
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_CALLBACK_WRAPPERS
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAICpp_Character(); \
 	friend struct Z_Construct_UClass_AAICpp_Character_Statics; \
@@ -27,7 +27,7 @@ public: \
 	DECLARE_SERIALIZER(AAICpp_Character)
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_INCLASS \
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesAAICpp_Character(); \
 	friend struct Z_Construct_UClass_AAICpp_Character_Statics; \
@@ -36,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(AAICpp_Character)
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_STANDARD_CONSTRUCTORS \
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAICpp_Character(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAICpp_Character) \
@@ -49,7 +49,7 @@ private: \
 public:
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_ENHANCED_CONSTRUCTORS \
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAICpp_Character(AAICpp_Character&&); \
@@ -60,38 +60,38 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAICpp_Character); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAICpp_Character)
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_PRIVATE_PROPERTY_OFFSET \
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AAICpp_Character, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AAICpp_Character, FollowCamera); } \
 	FORCEINLINE static uint32 __PPO__SphereCollider() { return STRUCT_OFFSET(AAICpp_Character, SphereCollider); }
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_10_PROLOG \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_EVENT_PARMS
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_10_PROLOG \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_EVENT_PARMS
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_GENERATED_BODY_LEGACY \
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_PRIVATE_PROPERTY_OFFSET \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_SPARSE_DATA \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_RPC_WRAPPERS \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_CALLBACK_WRAPPERS \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_INCLASS \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_STANDARD_CONSTRUCTORS \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_PRIVATE_PROPERTY_OFFSET \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_SPARSE_DATA \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_RPC_WRAPPERS \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_CALLBACK_WRAPPERS \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_INCLASS \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_GENERATED_BODY \
+#define UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_PRIVATE_PROPERTY_OFFSET \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_SPARSE_DATA \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_CALLBACK_WRAPPERS \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_INCLASS_NO_PURE_DECLS \
-	UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_ENHANCED_CONSTRUCTORS \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_PRIVATE_PROPERTY_OFFSET \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_SPARSE_DATA \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_CALLBACK_WRAPPERS \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_INCLASS_NO_PURE_DECLS \
+	UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -99,7 +99,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> UNREALAI_API UClass* StaticClass<class AAICpp_Character>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID UnrealAI_Source_UnrealAI_UnrealAI_C___AICpp_Character_h
+#define CURRENT_FILE_ID UnrealAI0_Source_UnrealAI_UnrealAI_C___AICpp_Character_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

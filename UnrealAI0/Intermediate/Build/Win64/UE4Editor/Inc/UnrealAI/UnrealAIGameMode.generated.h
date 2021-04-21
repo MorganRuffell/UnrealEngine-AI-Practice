@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define UNREALAI_UnrealAIGameMode_generated_h
 
-#define UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_SPARSE_DATA
-#define UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_RPC_WRAPPERS
-#define UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_INCLASS_NO_PURE_DECLS \
+#define UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_SPARSE_DATA
+#define UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_RPC_WRAPPERS
+#define UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAUnrealAIGameMode(); \
 	friend struct Z_Construct_UClass_AUnrealAIGameMode_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AUnrealAIGameMode)
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_INCLASS \
+#define UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAUnrealAIGameMode(); \
 	friend struct Z_Construct_UClass_AUnrealAIGameMode_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AUnrealAIGameMode)
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_STANDARD_CONSTRUCTORS \
+#define UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	UNREALAI_API AUnrealAIGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AUnrealAIGameMode) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_ENHANCED_CONSTRUCTORS \
+#define UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UNREALAI_API AUnrealAIGameMode(AUnrealAIGameMode&&); \
@@ -58,28 +58,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUnrealAIGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AUnrealAIGameMode)
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_PRIVATE_PROPERTY_OFFSET
-#define UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_9_PROLOG
-#define UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_GENERATED_BODY_LEGACY \
+#define UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_PRIVATE_PROPERTY_OFFSET
+#define UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_9_PROLOG
+#define UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
-	UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_SPARSE_DATA \
-	UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_RPC_WRAPPERS \
-	UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_INCLASS \
-	UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_STANDARD_CONSTRUCTORS \
+	UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_SPARSE_DATA \
+	UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_RPC_WRAPPERS \
+	UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_INCLASS \
+	UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_GENERATED_BODY \
+#define UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
-	UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_SPARSE_DATA \
-	UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_INCLASS_NO_PURE_DECLS \
-	UnrealAI_Source_UnrealAI_UnrealAIGameMode_h_12_ENHANCED_CONSTRUCTORS \
+	UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_SPARSE_DATA \
+	UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_INCLASS_NO_PURE_DECLS \
+	UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -87,7 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> UNREALAI_API UClass* StaticClass<class AUnrealAIGameMode>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID UnrealAI_Source_UnrealAI_UnrealAIGameMode_h
+#define CURRENT_FILE_ID UnrealAI0_Source_UnrealAI_UnrealAIGameMode_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
