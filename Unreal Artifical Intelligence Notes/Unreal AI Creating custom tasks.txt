@@ -1,0 +1,29 @@
+Unreal AI: Creating Custom tasks
+
+What do I inherit from?
+
+This is quite a difficult one, it's far more complicated than it's BP counterpart. 
+Remember to include "GameplayTasks" in your public dependency modules. 
+
+	UBTTask_BlackboardBase		If you want to have access to blackboard properties.
+	
+	UBTTask				If you don't need to have access to blackboard properties.
+
+
+
+If you were to add this into your BehaviorTree, this would have a name that is not really very useful.
+As these are considered nodes, just do this in the constructor of the class and you'll be fine.
+
+
+NodeName = TEXT("TargetName");
+
+Succeeded Return task
+
+EBTNodeResult::Type UBTTask_Name::ExecuteTask(UBehaviorTreeComponent& OwnerComp), uint8* NodeMemory)
+{
+	Super::ExecuteTask(OwnerComp, NodeMemory);
+
+	OwnerComp.GetBlackboardComponent()->ClearValue(GetSelectedBlackboardKey());
+
+	return EBTNodeResult::Succeeded;
+}
